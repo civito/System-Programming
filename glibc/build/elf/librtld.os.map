@@ -1,0 +1,1372 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__libc_check_standard_fds)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (rtld_errno)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__closedir)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__readdir)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__rewinddir)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os) (__getdents)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__fdopendir)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (_dl_addr_inside_object)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__profil)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__profile_frequency)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI___xstat64)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI___fxstat64)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI___lxstat64)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__open)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__openat64_nocancel)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__libc_read)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__libc_write)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__lseek)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__access)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os) (__libc_fcntl)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__close)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__mmap)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__munmap)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__mprotect)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__uname)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI__exit)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__getpid)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__environ)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__sigsetjmp)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__longjmp)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os) (__sigaction)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__strdup)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strcmp)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memchr)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (rawmemchr)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memcmp)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strchr)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strlen)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strnlen)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__stpcpy)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strcspn)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__mempcpy)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memset)
+/home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os) (__setitimer)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+LOAD /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+ *(.iplt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000000000    0x1c460
+ *(.text .stub)
+ .text          0x0000000000000000    0x19020 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x0000000000000000                _start
+                0x0000000000000008                _dl_start_user
+                0x0000000000001240                handle_ld_preload
+                0x0000000000006900                _dl_dst_count
+                0x00000000000069b0                _dl_dst_substitute
+                0x00000000000072c0                _dl_init_paths
+                0x0000000000007700                _dl_map_object
+                0x0000000000008100                _dl_rtld_di_serinfo
+                0x0000000000009060                _dl_lookup_symbol_x
+                0x0000000000009f10                _dl_setup_hash
+                0x0000000000009fc0                _dl_add_to_namespace_list
+                0x000000000000a050                _dl_new_object
+                0x000000000000a3f0                _dl_try_allocate_static_tls
+                0x000000000000a4d0                _dl_allocate_static_tls
+                0x000000000000a500                _dl_nothread_init_static_tls
+                0x000000000000a540                _dl_protect_relro
+                0x000000000000a5a0                _dl_reloc_bad_type
+                0x000000000000a670                _dl_relocate_object
+                0x000000000000c040                _dl_map_object_deps
+                0x000000000000d200                _dl_important_hwcaps
+                0x000000000000d9d0                _dl_fixup
+                0x000000000000dba0                _dl_profile_fixup
+                0x000000000000e1a0                _dl_call_pltexit
+                0x000000000000e3d0                _dl_init
+                0x000000000000e500                _dl_sort_fini
+                0x000000000000e740                _dl_fini
+                0x000000000000ead0                _dl_debug_state
+                0x000000000000ead0                __GI__dl_debug_state
+                0x000000000000eae0                _dl_debug_initialize
+                0x000000000000f150                _dl_sysdep_read_whole_file
+                0x000000000000f1e0                _dl_debug_printf
+                0x000000000000f290                _dl_debug_printf_c
+                0x000000000000f340                _dl_dprintf
+                0x000000000000f3e0                _dl_name_match_p
+                0x000000000000f450                _dl_higher_prime_number
+                0x000000000000f4d0                _dl_strtoul
+                0x000000000000f630                _dl_check_map_versions
+                0x000000000000fd80                _dl_check_all_versions
+                0x000000000000fdf0                _dl_start_profile
+                0x00000000000105d0                __GI__dl_mcount
+                0x00000000000105d0                _dl_mcount
+                0x0000000000010b40                _dl_next_tls_modid
+                0x0000000000010c40                _dl_count_modids
+                0x0000000000010ca0                _dl_determine_tlsoffset
+                0x0000000000010e70                _dl_get_tls_static_info
+                0x0000000000010e90                _dl_allocate_tls_storage
+                0x0000000000010f50                __GI__dl_allocate_tls_init
+                0x0000000000010f50                _dl_allocate_tls_init
+                0x00000000000111f0                __GI__dl_allocate_tls
+                0x00000000000111f0                _dl_allocate_tls
+                0x0000000000011230                _dl_deallocate_tls
+                0x0000000000011230                __GI__dl_deallocate_tls
+                0x00000000000112b0                _dl_update_slotinfo
+                0x0000000000011540                __GI___tls_get_addr
+                0x0000000000011540                ___tls_get_addr
+                0x0000000000011580                _dl_tls_get_addr_soft
+                0x0000000000011600                _dl_add_to_slotinfo
+                0x00000000000116e0                __tls_get_addr_slow
+                0x0000000000011710                _dl_get_origin
+                0x0000000000011890                _dl_scope_free
+                0x0000000000011960                _dl_make_stack_executable
+                0x0000000000011960                __GI__dl_make_stack_executable
+                0x00000000000119f0                _dl_check_caller
+                0x0000000000011e20                __GI__dl_find_dso_for_object
+                0x0000000000011e20                _dl_find_dso_for_object
+                0x0000000000011ee0                _dl_open
+                0x0000000000012220                _dl_show_scope
+                0x0000000000012de0                _dl_close_worker
+                0x0000000000013d40                _dl_close
+                0x0000000000013db0                _dl_runtime_profile_avx512
+                0x0000000000014230                _dl_runtime_profile_avx
+                0x00000000000146b0                _dl_runtime_profile_sse
+                0x00000000000148b0                _dl_runtime_resolve_fxsave
+                0x0000000000014930                _dl_runtime_resolve_xsave
+                0x0000000000014a00                _dl_runtime_resolve_xsavec
+                0x0000000000014af0                _dl_exception_create
+                0x0000000000014af0                __GI__dl_exception_create
+                0x0000000000014c00                __GI__dl_exception_create_format
+                0x0000000000014c00                _dl_exception_create_format
+                0x0000000000014f20                _dl_exception_free
+                0x0000000000014f20                __GI__dl_exception_free
+                0x0000000000014f50                _dl_cache_libcmp
+                0x0000000000015030                _dl_load_cache_lookup
+                0x00000000000156c0                _dl_unload_cache
+                0x00000000000157b0                __tunable_set_val
+                0x00000000000157d0                __GI___tunables_init
+                0x0000000000015cb0                __tunable_get_val
+                0x0000000000015cb0                __GI___tunable_get_val
+                0x0000000000015d30                _dl_make_tlsdesc_dynamic
+                0x0000000000016000                _dl_tlsdesc_resolve_rela_fixup
+                0x00000000000161c0                _dl_tlsdesc_resolve_hold_fixup
+                0x0000000000016200                _dl_unmap
+                0x0000000000016280                _dl_tlsdesc_return
+                0x0000000000016290                _dl_tlsdesc_undefweak
+                0x00000000000162a0                _dl_tlsdesc_dynamic
+                0x0000000000016340                _dl_tlsdesc_resolve_rela
+                0x00000000000163b0                _dl_tlsdesc_resolve_hold
+                0x0000000000016430                __tls_get_addr
+                0x0000000000016470                __get_cpu_features
+                0x0000000000016480                _dl_tunable_set_hwcaps
+                0x0000000000017380                _dl_sysdep_start
+                0x0000000000017a70                _dl_sysdep_start_cleanup
+                0x0000000000017a80                _dl_show_auxv
+                0x0000000000017c30                _dl_discover_osversion
+                0x0000000000017e00                _dl_next_ld_env_entry
+                0x0000000000017e50                unsetenv
+                0x0000000000017ec0                malloc
+                0x0000000000017fd0                calloc
+                0x0000000000018010                free
+                0x0000000000018040                __sigjmp_save
+                0x0000000000018050                __strerror_r
+                0x0000000000018130                __GI___libc_fatal
+                0x0000000000018130                __libc_fatal
+                0x0000000000018160                __GI___chk_fail
+                0x0000000000018160                __chk_fail
+                0x0000000000018170                __GI___assert_fail
+                0x0000000000018170                __assert_fail
+                0x00000000000181c0                realloc
+                0x0000000000018250                __GI___assert_perror_fail
+                0x0000000000018250                __assert_perror_fail
+                0x00000000000182c0                _itoa
+                0x0000000000018310                __strsep
+                0x0000000000018310                strsep
+                0x0000000000018310                __strsep_g
+                0x0000000000018450                _dl_signal_exception
+                0x00000000000184a0                _dl_signal_error
+                0x00000000000184f0                _dl_signal_cexception
+                0x0000000000018570                _dl_signal_cerror
+                0x0000000000018600                _dl_catch_exception
+                0x00000000000186b0                _dl_catch_error
+                0x0000000000018700                _dl_receive_error
+                0x0000000000018740                _dl_resolve_conflicts
+                0x00000000000188c0                __brk
+                0x00000000000188c0                brk
+                0x0000000000018910                sbrk
+                0x0000000000018910                __sbrk
+                0x00000000000189a0                __getcwd
+                0x00000000000189a0                getcwd
+                0x0000000000018dd0                openat64
+                0x0000000000018e30                __alloc_dir
+                0x0000000000018f30                __opendir
+                0x0000000000018f30                opendir
+                0x0000000000018fd0                __fxstatat
+                0x0000000000018fd0                __fxstatat64
+                0x0000000000018fd0                __GI___fxstatat64
+ .text          0x0000000000019020       0xe2 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+                0x00000000000190d0                __libc_check_standard_fds
+ .text          0x0000000000019102        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ *fill*         0x0000000000019102        0xe 
+ .text          0x0000000000019110       0x28 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+                0x0000000000019110                __closedir
+                0x0000000000019110                closedir
+ *fill*         0x0000000000019138        0x8 
+ .text          0x0000000000019140       0x85 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+                0x0000000000019140                readdir
+                0x0000000000019140                __readdir64
+                0x0000000000019140                __readdir
+                0x0000000000019140                __GI___readdir64
+                0x0000000000019140                readdir64
+ *fill*         0x00000000000191c5        0xb 
+ .text          0x00000000000191d0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                0x00000000000191d0                rewinddir
+                0x00000000000191d0                __rewinddir
+ .text          0x0000000000019200       0x89 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+                0x0000000000019200                __getdents
+                0x0000000000019200                __getdents64
+ *fill*         0x0000000000019289        0x7 
+ .text          0x0000000000019290       0x8e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                0x0000000000019290                fdopendir
+                0x0000000000019290                __fdopendir
+ *fill*         0x000000000001931e        0x2 
+ .text          0x0000000000019320       0x53 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                0x0000000000019320                _dl_addr_inside_object
+ *fill*         0x0000000000019373        0xd 
+ .text          0x0000000000019380      0x110 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+                0x00000000000193d0                __profil
+                0x00000000000193d0                profil
+ .text          0x0000000000019490        0x7 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                0x0000000000019490                __profile_frequency
+ *fill*         0x0000000000019497        0x9 
+ .text          0x00000000000194a0       0x40 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+                0x00000000000194a0                _xstat
+                0x00000000000194a0                __xstat64
+                0x00000000000194a0                __GI___xstat64
+                0x00000000000194a0                __GI___xstat
+                0x00000000000194a0                __xstat
+ .text          0x00000000000194e0       0x40 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+                0x00000000000194e0                __GI___fxstat
+                0x00000000000194e0                __GI___fxstat64
+                0x00000000000194e0                __fxstat64
+                0x00000000000194e0                _fxstat
+                0x00000000000194e0                __fxstat
+ .text          0x0000000000019520       0x40 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+                0x0000000000019520                __GI___lxstat
+                0x0000000000019520                _lxstat
+                0x0000000000019520                __lxstat
+                0x0000000000019520                __lxstat64
+                0x0000000000019520                __GI___lxstat64
+ .text          0x0000000000019560       0x76 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+                0x0000000000019560                __open
+                0x0000000000019560                __open_nocancel
+                0x0000000000019560                __libc_open64
+                0x0000000000019560                __libc_open
+                0x0000000000019560                open64
+                0x0000000000019560                __open64_nocancel
+                0x0000000000019560                open
+                0x0000000000019560                __open64
+ *fill*         0x00000000000195d6        0xa 
+ .text          0x00000000000195e0       0x66 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+                0x00000000000195e0                __openat64
+                0x00000000000195e0                __openat64_nocancel
+                0x00000000000195e0                __libc_openat64
+                0x00000000000195e0                __openat
+                0x00000000000195e0                openat
+                0x00000000000195e0                __openat_nocancel
+ *fill*         0x0000000000019646        0xa 
+ .text          0x0000000000019650       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+                0x0000000000019650                __read
+                0x0000000000019650                __libc_read
+                0x0000000000019650                __read_nocancel
+                0x0000000000019650                read
+ .text          0x0000000000019670       0x28 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+                0x0000000000019670                __write
+                0x0000000000019670                write
+                0x0000000000019670                __write_nocancel
+                0x0000000000019670                __libc_write
+ *fill*         0x0000000000019698        0x8 
+ .text          0x00000000000196a0       0x28 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+                0x00000000000196a0                __lseek64
+                0x00000000000196a0                lseek
+                0x00000000000196a0                __libc_lseek64
+                0x00000000000196a0                llseek
+                0x00000000000196a0                __lseek
+                0x00000000000196a0                __libc_lseek
+                0x00000000000196a0                lseek64
+ *fill*         0x00000000000196c8        0x8 
+ .text          0x00000000000196d0       0x26 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+                0x00000000000196d0                access
+                0x00000000000196d0                __access
+ *fill*         0x00000000000196f6        0xa 
+ .text          0x0000000000019700       0x7e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+                0x0000000000019700                __libc_fcntl
+                0x0000000000019700                __fcntl_nocancel
+                0x0000000000019700                __fcntl
+                0x0000000000019700                fcntl
+ *fill*         0x000000000001977e        0x2 
+ .text          0x0000000000019780       0x26 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+                0x0000000000019780                __libc_close
+                0x0000000000019780                __close_nocancel
+                0x0000000000019780                __close
+                0x0000000000019780                close
+ *fill*         0x00000000000197a6        0xa 
+ .text          0x00000000000197b0       0xce /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+                0x00000000000197b0                __mmap
+                0x00000000000197b0                mmap
+                0x00000000000197b0                __mmap64
+                0x00000000000197b0                mmap64
+ *fill*         0x000000000001987e        0x2 
+ .text          0x0000000000019880       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+                0x0000000000019880                munmap
+                0x0000000000019880                __GI___munmap
+                0x0000000000019880                __GI_munmap
+                0x0000000000019880                __munmap
+ .text          0x00000000000198a0       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+                0x00000000000198a0                __mprotect
+                0x00000000000198a0                __GI___mprotect
+                0x00000000000198a0                __GI_mprotect
+                0x00000000000198a0                mprotect
+ .text          0x00000000000198c0       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+                0x00000000000198c0                uname
+                0x00000000000198c0                __GI_uname
+                0x00000000000198c0                __uname
+                0x00000000000198c0                __GI___uname
+ .text          0x00000000000198e0       0x4a /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+                0x00000000000198e0                _Exit
+                0x00000000000198e0                __GI__exit
+                0x00000000000198e0                _exit
+ *fill*         0x000000000001992a        0x6 
+ .text          0x0000000000019930        0x8 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+                0x0000000000019930                __getpid
+                0x0000000000019930                getpid
+                0x0000000000019930                __GI_getpid
+                0x0000000000019930                __GI___getpid
+ .text          0x0000000000019938        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ *fill*         0x0000000000019938        0x8 
+ .text          0x0000000000019940       0x4f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+                0x0000000000019940                __sigsetjmp
+                0x0000000000019940                __GI___sigsetjmp
+ *fill*         0x000000000001998f        0x1 
+ .text          0x0000000000019990       0x4a /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                0x0000000000019990                __longjmp
+ *fill*         0x00000000000199da        0x6 
+ .text          0x00000000000199e0      0x270 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+                0x0000000000019a00                __libc_sigaction
+                0x0000000000019c30                sigaction
+                0x0000000000019c30                __sigaction
+ .text          0x0000000000019c50       0x41 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+                0x0000000000019c50                __strdup
+                0x0000000000019c50                strdup
+ *fill*         0x0000000000019c91        0xf 
+ .text          0x0000000000019ca0     0x1439 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+                0x0000000000019ca0                strcmp
+ *fill*         0x000000000001b0d9        0x7 
+ .text          0x000000000001b0e0      0x323 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+                0x000000000001b0e0                memchr
+                0x000000000001b0e0                __memchr
+ *fill*         0x000000000001b403        0xd 
+ .text          0x000000000001b410      0x1f9 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+                0x000000000001b410                __rawmemchr
+                0x000000000001b410                rawmemchr
+ *fill*         0x000000000001b609        0x7 
+ .text          0x000000000001b610      0x400 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+                0x000000000001b610                bcmp
+                0x000000000001b610                memcmp
+ .text          0x000000000001ba10      0x21a /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+                0x000000000001ba10                index
+                0x000000000001ba10                strchr
+ *fill*         0x000000000001bc2a        0x6 
+ .text          0x000000000001bc30      0x19c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+                0x000000000001bc30                strlen
+ *fill*         0x000000000001bdcc        0x4 
+ .text          0x000000000001bdd0      0x218 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+                0x000000000001bdd0                __strnlen
+                0x000000000001bdd0                strnlen
+ *fill*         0x000000000001bfe8        0x8 
+ .text          0x000000000001bff0       0xdc /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+                0x000000000001bff0                stpcpy
+                0x000000000001bff0                __stpcpy
+ *fill*         0x000000000001c0cc        0x4 
+ .text          0x000000000001c0d0       0x97 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+                0x000000000001c0d0                strcspn
+ *fill*         0x000000000001c167        0x9 
+ .text          0x000000000001c170      0x1ed /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                0x000000000001c170                mempcpy
+                0x000000000001c170                __mempcpy
+                0x000000000001c180                memmove
+                0x000000000001c180                memcpy
+ *fill*         0x000000000001c35d        0x3 
+ .text          0x000000000001c360       0xda /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+                0x000000000001c360                memset
+ *fill*         0x000000000001c43a        0x6 
+ .text          0x000000000001c440       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+                0x000000000001c440                setitimer
+                0x000000000001c440                __setitimer
+                0x000000000001c440                __GI_setitimer
+                0x000000000001c440                __GI___setitimer
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000      0x169
+ .text.unlikely
+                0x0000000000000000      0x169 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x0000000000000000      0xd88
+ *(.rodata)
+ .rodata        0x0000000000000000      0xd48 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x0000000000000ca0                __GI__itoa_lower_digits
+                0x0000000000000ca0                _itoa_lower_digits
+ .rodata        0x0000000000000d48       0x40 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+
+.rodata.str1.1  0x0000000000000000     0x125b
+ .rodata.str1.1
+                0x0000000000000000     0x1247 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .rodata.str1.1
+                0x0000000000001247       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+
+.rodata.str1.8  0x0000000000000000     0x2481
+ .rodata.str1.8
+                0x0000000000000000     0x2481 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.str1.16
+                0x0000000000000000      0x366
+ .rodata.str1.16
+                0x0000000000000000      0x366 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.cst16   0x0000000000000000       0x20
+ .rodata.cst16  0x0000000000000000       0x20 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.cst4    0x0000000000000000        0x4
+ .rodata.cst4   0x0000000000000000        0x4 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.str1.32
+                0x0000000000000000       0x3b
+ .rodata.str1.32
+                0x0000000000000000       0x3b /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x3040
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000     0x2630 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .eh_frame      0x0000000000002630       0x68 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .eh_frame      0x0000000000002698       0x38 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .eh_frame      0x00000000000026d0       0x48 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .eh_frame      0x0000000000002718       0x38 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .eh_frame      0x0000000000002750       0x68 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .eh_frame      0x00000000000027b8       0x50 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .eh_frame      0x0000000000002808       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .eh_frame      0x0000000000002838       0x50 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000002888       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .eh_frame      0x00000000000028b8       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .eh_frame      0x00000000000028e8       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .eh_frame      0x0000000000002918       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .eh_frame      0x0000000000002948       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .eh_frame      0x0000000000002978       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .eh_frame      0x00000000000029a8       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .eh_frame      0x00000000000029d8       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .eh_frame      0x0000000000002a08       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .eh_frame      0x0000000000002a38       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .eh_frame      0x0000000000002a68       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .eh_frame      0x0000000000002a98       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .eh_frame      0x0000000000002ac8       0x70 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .eh_frame      0x0000000000002b38       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .eh_frame      0x0000000000002b68       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .eh_frame      0x0000000000002b98       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .eh_frame      0x0000000000002bc8       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .eh_frame      0x0000000000002bf8       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .eh_frame      0x0000000000002c28       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .eh_frame      0x0000000000002c58       0x48 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .eh_frame      0x0000000000002ca0       0xf0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x0000000000002d90       0x50 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .eh_frame      0x0000000000002de0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .eh_frame      0x0000000000002e10       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .eh_frame      0x0000000000002e40       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .eh_frame      0x0000000000002e70       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .eh_frame      0x0000000000002ea0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .eh_frame      0x0000000000002ed0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .eh_frame      0x0000000000002f00       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .eh_frame      0x0000000000002f30       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .eh_frame      0x0000000000002f60       0x38 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .eh_frame      0x0000000000002f98       0x48 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000002fe0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .eh_frame      0x0000000000003010       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+ *(.igot)
+
+.got.plt
+ *(.got.plt)
+ *(.igot.plt)
+
+.data           0x0000000000000000      0xf78
+ *(.data)
+ .data          0x0000000000000000      0xf78 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x0000000000000000                _rtld_global
+                0x0000000000000000                _rtld_local
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.data.rel.ro    0x0000000000000000      0x694
+ .data.rel.ro   0x0000000000000000      0x694 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x00000000000000b0                __pointer_chk_guard_local
+                0x00000000000000b8                _dl_skip_args
+                0x00000000000000c0                __GI__dl_argv
+                0x00000000000000c0                _dl_argv
+                0x00000000000000c8                _dl_argc
+                0x00000000000000e0                _rtld_global_ro
+                0x00000000000000e0                _rtld_local_ro
+                0x00000000000002e0                __stack_prot
+                0x0000000000000680                _dl_random
+                0x0000000000000688                __libc_stack_end
+                0x0000000000000688                __GI___libc_stack_end
+                0x0000000000000690                __GI___libc_enable_secure
+                0x0000000000000690                __libc_enable_secure
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000      0x140
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000      0x118 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x00000000000000e0                __libc_multiple_libcs
+                0x0000000000000110                __curbrk
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .bss           0x0000000000000118       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .bss           0x0000000000000138        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .bss           0x0000000000000138        0x8 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+                0x0000000000000138                _environ
+                0x0000000000000138                __environ
+                0x0000000000000138                environ
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .bss           0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+ *(COMMON)
+ COMMON         0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ COMMON         0x0000000000000140        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss)
+ *(LARGE_COMMON)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0xd0b
+ *(.comment)
+ .comment       0x0000000000000000      0x7a9 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .comment       0x00000000000007a9       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .comment       0x00000000000007de       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .comment       0x0000000000000813       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .comment       0x0000000000000848       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .comment       0x000000000000087d       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .comment       0x00000000000008b2       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .comment       0x00000000000008e7       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .comment       0x000000000000091c       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .comment       0x0000000000000951       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .comment       0x0000000000000986       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .comment       0x00000000000009bb       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .comment       0x00000000000009f0       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .comment       0x0000000000000a25       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .comment       0x0000000000000a5a       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .comment       0x0000000000000a8f       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .comment       0x0000000000000ac4       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .comment       0x0000000000000af9       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .comment       0x0000000000000b2e       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .comment       0x0000000000000b63       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .comment       0x0000000000000b98       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .comment       0x0000000000000bcd       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .comment       0x0000000000000c02       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .comment       0x0000000000000c37       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .comment       0x0000000000000c6c       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .comment       0x0000000000000ca1       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .comment       0x0000000000000cd6       0x35 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.gnu.warning.llseek
+                0x0000000000000000       0x3f
+ .gnu.warning.llseek
+                0x0000000000000000       0x3f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xfc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x7a0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_aranges
+                0x00000000000007a0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_aranges
+                0x00000000000007d0       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_aranges
+                0x00000000000007f0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_aranges
+                0x0000000000000820       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_aranges
+                0x0000000000000850       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_aranges
+                0x0000000000000880       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_aranges
+                0x00000000000008b0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_aranges
+                0x00000000000008e0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_aranges
+                0x0000000000000910       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_aranges
+                0x0000000000000940       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_aranges
+                0x0000000000000970       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_aranges
+                0x00000000000009a0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_aranges
+                0x00000000000009d0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_aranges
+                0x0000000000000a00       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_aranges
+                0x0000000000000a30       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_aranges
+                0x0000000000000a60       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_aranges
+                0x0000000000000a90       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_aranges
+                0x0000000000000ac0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_aranges
+                0x0000000000000af0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_aranges
+                0x0000000000000b20       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_aranges
+                0x0000000000000b50       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_aranges
+                0x0000000000000b80       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_aranges
+                0x0000000000000bb0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_aranges
+                0x0000000000000be0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_aranges
+                0x0000000000000c10       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_aranges
+                0x0000000000000c40       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_aranges
+                0x0000000000000c70       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_aranges
+                0x0000000000000ca0       0x20 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_aranges
+                0x0000000000000cc0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_aranges
+                0x0000000000000cf0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_aranges
+                0x0000000000000d20       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_aranges
+                0x0000000000000d50       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_aranges
+                0x0000000000000d80       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000db0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_aranges
+                0x0000000000000de0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_aranges
+                0x0000000000000e10       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000e40       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_aranges
+                0x0000000000000e70       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_aranges
+                0x0000000000000ea0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_aranges
+                0x0000000000000ed0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_aranges
+                0x0000000000000f00       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_aranges
+                0x0000000000000f30       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000000f60       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000000f90       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x65dc2
+ *(.debug_info)
+ .debug_info    0x0000000000000000    0x57d6d /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_info    0x0000000000057d6d      0x824 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_info    0x0000000000058591      0x474 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_info    0x0000000000058a05      0x6a5 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_info    0x00000000000590aa      0x750 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_info    0x00000000000597fa      0x66e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_info    0x0000000000059e68      0x732 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_info    0x000000000005a59a      0x85f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_info    0x000000000005adf9      0xdc7 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_info    0x000000000005bbc0      0xa69 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_info    0x000000000005c629     0x19a8 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_info    0x000000000005dfd1      0x6b4 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_info    0x000000000005e685      0x6ad /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_info    0x000000000005ed32      0x6b4 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_info    0x000000000005f3e6      0x675 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_info    0x000000000005fa5b      0x693 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_info    0x00000000000600ee      0x62f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_info    0x000000000006071d      0x636 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_info    0x0000000000060d53      0x595 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_info    0x00000000000612e8      0x5dd /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_info    0x00000000000618c5      0x7ef /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_info    0x00000000000620b4      0x5c0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_info    0x0000000000062674     0x1d0f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_info    0x0000000000064383       0x74 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_info    0x00000000000643f7       0x74 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_info    0x000000000006446b       0x75 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_info    0x00000000000644e0      0x554 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_info    0x0000000000064a34       0x75 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_info    0x0000000000064aa9       0xcc /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_info    0x0000000000064b75       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_info    0x0000000000064be3       0x71 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_info    0x0000000000064c54      0xa59 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_info    0x00000000000656ad      0x167 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_info    0x0000000000065814       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_info    0x0000000000065882       0x7b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_info    0x00000000000658fd       0x7e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_info    0x000000000006597b       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_info    0x00000000000659e9       0x7b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_info    0x0000000000065a64       0x7b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_info    0x0000000000065adf       0x7b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_info    0x0000000000065b5a       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_info    0x0000000000065bc8       0x6f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_info    0x0000000000065c37       0x8c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_info    0x0000000000065cc3       0x8b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_info    0x0000000000065d4e       0x74 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_abbrev   0x0000000000000000     0xb976
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0x8ed0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_abbrev  0x0000000000008ed0      0x1f2 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_abbrev  0x00000000000090c2       0xe6 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_abbrev  0x00000000000091a8      0x17f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_abbrev  0x0000000000009327      0x183 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_abbrev  0x00000000000094aa      0x14d /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_abbrev  0x00000000000095f7      0x1c0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_abbrev  0x00000000000097b7      0x18d /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_abbrev  0x0000000000009944      0x203 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_abbrev  0x0000000000009b47      0x297 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_abbrev  0x0000000000009dde      0x26d /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_abbrev  0x000000000000a04b      0x143 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_abbrev  0x000000000000a18e      0x152 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_abbrev  0x000000000000a2e0      0x143 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_abbrev  0x000000000000a423      0x187 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_abbrev  0x000000000000a5aa      0x196 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_abbrev  0x000000000000a740      0x18c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_abbrev  0x000000000000a8cc      0x191 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_abbrev  0x000000000000aa5d      0x150 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_abbrev  0x000000000000abad      0x170 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_abbrev  0x000000000000ad1d      0x22a /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_abbrev  0x000000000000af47      0x17d /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_abbrev  0x000000000000b0c4      0x2ee /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_abbrev  0x000000000000b3b2       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_abbrev  0x000000000000b3c6       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_abbrev  0x000000000000b3da       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_abbrev  0x000000000000b3ee      0x14d /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_abbrev  0x000000000000b53b       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_abbrev  0x000000000000b54f       0x53 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_abbrev  0x000000000000b5a2       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_abbrev  0x000000000000b5b6       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_abbrev  0x000000000000b5ca      0x1de /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_abbrev  0x000000000000b7a8       0xde /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_abbrev  0x000000000000b886       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_abbrev  0x000000000000b89a       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_abbrev  0x000000000000b8ae       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_abbrev  0x000000000000b8c2       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_abbrev  0x000000000000b8d6       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_abbrev  0x000000000000b8ea       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_abbrev  0x000000000000b8fe       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_abbrev  0x000000000000b912       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_abbrev  0x000000000000b926       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_abbrev  0x000000000000b93a       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000b94e       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000b962       0x14 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_line     0x0000000000000000    0x105ae
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0xc6df /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_line    0x000000000000c6df      0x21a /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_line    0x000000000000c8f9       0xe1 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_line    0x000000000000c9da      0x24b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_line    0x000000000000cc25      0x245 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_line    0x000000000000ce6a      0x207 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_line    0x000000000000d071      0x1f6 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_line    0x000000000000d267      0x29e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_line    0x000000000000d505      0x1ef /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_line    0x000000000000d6f4      0x2d2 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_line    0x000000000000d9c6      0x260 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_line    0x000000000000dc26      0x195 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_line    0x000000000000ddbb      0x196 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_line    0x000000000000df51      0x196 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_line    0x000000000000e0e7      0x1e6 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_line    0x000000000000e2cd      0x1f8 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_line    0x000000000000e4c5      0x1da /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_line    0x000000000000e69f      0x1db /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_line    0x000000000000e87a      0x158 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_line    0x000000000000e9d2      0x193 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_line    0x000000000000eb65      0x1e7 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_line    0x000000000000ed4c      0x192 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_line    0x000000000000eede      0x2ba /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_line    0x000000000000f198       0x59 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_line    0x000000000000f1f1       0x59 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_line    0x000000000000f24a       0x59 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_line    0x000000000000f2a3      0x14e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_line    0x000000000000f3f1       0x57 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_line    0x000000000000f448       0x41 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_line    0x000000000000f489       0x5f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_line    0x000000000000f4e8       0x61 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_line    0x000000000000f549      0x2b1 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_line    0x000000000000f7fa       0xa5 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_line    0x000000000000f89f      0x48f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_line    0x000000000000fd2e      0x124 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_line    0x000000000000fe52       0xd3 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_line    0x000000000000ff25      0x14c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_line    0x0000000000010071       0xde /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_line    0x000000000001014f       0xa5 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_line    0x00000000000101f4       0xa5 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_line    0x0000000000010299       0x95 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_line    0x000000000001032e       0x80 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_line    0x00000000000103ae       0xfc /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_line    0x00000000000104aa       0xab /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_line    0x0000000000010555       0x59 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x3c4cd
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x32276 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_str     0x0000000000032276      0x5c8 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_str     0x000000000003283e      0x3e7 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_str     0x0000000000032c25      0x562 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_str     0x0000000000033187      0x5d0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_str     0x0000000000033757      0x54b /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_str     0x0000000000033ca2      0x541 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_str     0x00000000000341e3      0x690 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_str     0x0000000000034873      0xa6c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_str     0x00000000000352df      0x762 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_str     0x0000000000035a41     0x11a3 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_str     0x0000000000036be4      0x550 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_str     0x0000000000037134      0x54e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_str     0x0000000000037682      0x553 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_str     0x0000000000037bd5      0x53d /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_str     0x0000000000038112      0x527 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_str     0x0000000000038639      0x50e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_str     0x0000000000038b47      0x510 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_str     0x0000000000039057      0x497 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_str     0x00000000000394ee      0x4dc /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_str     0x00000000000399ca      0x57e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_str     0x0000000000039f48      0x4d0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_str     0x000000000003a418     0x1221 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_str     0x000000000003b639      0x45c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_str     0x000000000003ba95      0x1ac /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_str     0x000000000003bc41      0x6d7 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_str     0x000000000003c318      0x1b5 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.debug_loc      0x0000000000000000    0x32727
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000    0x3038a /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_loc     0x000000000003038a       0xe1 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_loc     0x000000000003046b       0x82 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_loc     0x00000000000304ed      0x1d8 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_loc     0x00000000000306c5       0x4c /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_loc     0x0000000000030711      0x313 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_loc     0x0000000000030a24       0xbe /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_loc     0x0000000000030ae2       0x65 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_loc     0x0000000000030b47      0x23a /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_loc     0x0000000000030d81      0x182 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_loc     0x0000000000030f03      0x182 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_loc     0x0000000000031085      0x182 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_loc     0x0000000000031207      0x299 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_loc     0x00000000000314a0      0x1b7 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_loc     0x0000000000031657       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_loc     0x00000000000316c5       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_loc     0x0000000000031733       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_loc     0x00000000000317a1       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_loc     0x000000000003180f      0x2b9 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_loc     0x0000000000031ac8       0x6e /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_loc     0x0000000000031b36      0x643 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_loc     0x0000000000032179      0x148 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_loc     0x00000000000322c1      0x35f /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_loc     0x0000000000032620      0x107 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x7dc0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x7850 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_ranges  0x0000000000007850       0xa0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_ranges  0x00000000000078f0       0xb0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_ranges  0x00000000000079a0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_ranges  0x00000000000079d0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_ranges  0x0000000000007a00       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_ranges  0x0000000000007a30       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_ranges  0x0000000000007a60       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-openat64.os)
+ .debug_ranges  0x0000000000007a90       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_ranges  0x0000000000007ac0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_ranges  0x0000000000007af0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_ranges  0x0000000000007b20       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_ranges  0x0000000000007b50       0x60 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_ranges  0x0000000000007bb0       0x30 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_ranges  0x0000000000007be0       0x90 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_ranges  0x0000000000007c70       0x90 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_ranges  0x0000000000007d00       0xc0 /home/kyo/Desktop/sys/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/kyo/Desktop/sys/glibc/build/elf/librtld.os elf64-x86-64)

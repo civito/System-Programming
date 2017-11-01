@@ -1,0 +1,114 @@
+comment_char %
+escape_char /
+
+% This file is part of the GNU C Library and contains locale data.
+% The Free Software Foundation does not claim any copyright interest
+% in the locale data contained in this file.  The foregoing does not
+% affect the license of the GNU C Library as a whole.  It does not
+% exempt you from the conditions of the license if your use would
+% otherwise be governed by that license.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Niuean, Vagahau Niue language locale for New Zealand
+%
+% Niuean terms provided by Emani Fakaotimanava-Lui <emani@niue.nu>
+%
+% Prepared and contributed to glibc by Chris Leonard <cjl@sugarlabs.org> and
+% Emani Fakaotimanava-Lui <emani@niue.nu>
+%
+% This locale data has been developed in collaboration between:
+% Sugar Labs,  http://www.sugarlabs.org/
+% RockET Systems, http://rocketsystems.nu/
+%
+% with support from the Internet Society (ISOC)
+% http://pacific.scoop.co.nz/2012/06/internet-society-funds-niue-language-lifeline/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+LC_IDENTIFICATION
+title        "Niuean (Vagahau Niue) locale for New Zealand"
+source       "RockET Systems"
+address      "PO Box 229, Fatalupe, Alofi, Niue"
+contact      "Emani Fakaotimanava-Lui"
+email        "emani@niue.nu"
+tel          ""
+fax          ""
+language     "Niuean"
+territory    "New Zealand"
+revision     "1.0"
+date         "2012-07-18"
+
+category "i18n:2012";LC_IDENTIFICATION
+category "i18n:2012";LC_CTYPE
+category "i18n:2012";LC_COLLATE
+category "i18n:2012";LC_TIME
+category "i18n:2012";LC_NUMERIC
+category "i18n:2012";LC_MONETARY
+category "i18n:2012";LC_PAPER
+category "i18n:2012";LC_MEASUREMENT
+category "i18n:2012";LC_MESSAGES
+category "i18n:2012";LC_NAME
+category "i18n:2012";LC_ADDRESS
+category "i18n:2012";LC_TELEPHONE
+END LC_IDENTIFICATION
+
+LC_CTYPE
+copy "i18n"
+
+translit_start
+include "translit_combining";""
+translit_end
+END LC_CTYPE
+
+LC_COLLATE
+copy "iso14651_t1"
+END LC_COLLATE
+
+LC_TIME
+copy "niu_NU"
+END LC_TIME
+
+LC_NUMERIC
+copy "en_NZ"
+END LC_NUMERIC
+
+LC_MONETARY
+copy "en_NZ"
+END LC_MONETARY
+
+LC_PAPER
+copy "en_NZ"
+END LC_PAPER
+
+LC_MEASUREMENT
+copy "en_NZ"
+END LC_MEASUREMENT
+
+LC_MESSAGES
+copy "niu_NU"
+END LC_MESSAGES
+
+LC_NAME
+copy "en_NZ"
+END LC_NAME
+
+LC_ADDRESS
+% %f%N%a%N%d%N%b%N%s %h %e %r%N%z %T%N%c%N
+postal_fmt   "<U0025><U0066><U0025><U004E><U0025><U0061><U0025><U004E><U0025><U0064><U0025><U004E><U0025><U0062><U0025><U004E><U0025><U0073><U0020><U0025><U0068><U0020><U0025><U0065><U0020><U0025><U0072><U0025><U004E><U0025><U007A><U0020><U0025><U0054><U0025><U004E><U0025><U0063><U0025><U004E>"
+% NZ
+country_ab2  "<U004E><U005A>"
+% NZL
+country_ab3  "<U004E><U005A><U004C>"
+country_num  554
+% NZ
+country_car    "<U004E><U005A>"
+% niu
+lang_term    "<U006E><U0069><U0075>"
+% niu
+lang_lib    "<U006E><U0069><U0075>"
+END LC_ADDRESS
+
+LC_TELEPHONE
+copy "en_NZ"
+END LC_TELEPHONE

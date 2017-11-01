@@ -1,0 +1,2439 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__libc_check_standard_fds)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os) (__libc_errno)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__sigsetjmp)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__longjmp)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strchr)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strcmp)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strcspn)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__strdup)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strlen)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (strnlen)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memchr)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memcmp)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memmove)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (memset)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__mempcpy)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__stpcpy)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os) (__GI_memcpy)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (rawmemchr)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os) (__strcmp_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os) (__strcmp_sse2_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os) (__strcmp_ssse3)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os) (__memchr_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os) (__rawmemchr_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os) (__memchr_avx2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os) (__rawmemchr_avx2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os) (__memcmp_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os) (__memcmp_avx2_movbe)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os) (__memcmp_sse4_1)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os) (__mempcpy_ssse3)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os) (__memmove_ssse3)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os) (__mempcpy_ssse3_back)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os) (__memmove_ssse3_back)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os) (__mempcpy_avx512_no_vzeroupper)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os) (__strchr_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os) (__strchr_avx2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os) (__strlen_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os) (__strnlen_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os) (__strlen_avx2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os) (__strnlen_avx2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os) (__stpcpy_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os) (__stpcpy_ssse3)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os) (__stpcpy_sse2_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os) (__strchr_sse2_no_bsf)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os) (__memcmp_ssse3)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os) (__strcspn_sse2)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os) (__strcspn_sse42)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os) (___m128i_shift_right)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os) (__memset_avx512_no_vzeroupper)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os) (__mempcpy_sse2_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os) (__mempcpy_avx_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os) (__mempcpy_avx512_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os) (__memset_sse2_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os) (__memset_avx2_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os) (__memset_avx512_unaligned)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os) (__x86_data_cache_size)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__closedir)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__readdir)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__rewinddir)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os) (__getdents)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__fdopendir)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__uname)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI__exit)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__getpid)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__environ)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI___xstat64)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI___fxstat64)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__GI___lxstat64)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__open)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__openat64_nocancel)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__libc_read)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__libc_write)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os) (__GI___lseek)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__access)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os) (__GI___libc_fcntl)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__close)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__mmap)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__munmap)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__mprotect)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (__profil)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os) (__GI___profile_frequency)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os) (__lll_lock_wait_private)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os) (__libc_enable_asynccancel)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os) (__libc_multiple_threads)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+                              /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os (_dl_addr_inside_object)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os) (__GI___sigaction)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os) (__setitimer)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os) (__pthread_unwind)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os) (__GI_exit)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os) (__new_exitfn_called)
+/home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+                              /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os) (__GI___call_tls_dtors)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                __stack_chk_fail = 0x0
+                0x0000000000000000                __stack_chk_fail_local = 0x0
+START GROUP
+LOAD /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+LOAD /home/kyo/Desktop/sys/glibc/build/libc_pic.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+ *(.iplt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000000000    0x1eea5
+ *(.text .stub)
+ .text          0x0000000000000000    0x19020 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x0000000000000000                _start
+                0x0000000000000008                _dl_start_user
+                0x0000000000001240                handle_ld_preload
+                0x0000000000006900                _dl_dst_count
+                0x00000000000069b0                _dl_dst_substitute
+                0x00000000000072c0                _dl_init_paths
+                0x0000000000007700                _dl_map_object
+                0x0000000000008100                _dl_rtld_di_serinfo
+                0x0000000000009060                _dl_lookup_symbol_x
+                0x0000000000009f10                _dl_setup_hash
+                0x0000000000009fc0                _dl_add_to_namespace_list
+                0x000000000000a050                _dl_new_object
+                0x000000000000a3f0                _dl_try_allocate_static_tls
+                0x000000000000a4d0                _dl_allocate_static_tls
+                0x000000000000a500                _dl_nothread_init_static_tls
+                0x000000000000a540                _dl_protect_relro
+                0x000000000000a5a0                _dl_reloc_bad_type
+                0x000000000000a670                _dl_relocate_object
+                0x000000000000c040                _dl_map_object_deps
+                0x000000000000d200                _dl_important_hwcaps
+                0x000000000000d9d0                _dl_fixup
+                0x000000000000dba0                _dl_profile_fixup
+                0x000000000000e1a0                _dl_call_pltexit
+                0x000000000000e3d0                _dl_init
+                0x000000000000e500                _dl_sort_fini
+                0x000000000000e740                _dl_fini
+                0x000000000000ead0                _dl_debug_state
+                0x000000000000ead0                __GI__dl_debug_state
+                0x000000000000eae0                _dl_debug_initialize
+                0x000000000000f150                _dl_sysdep_read_whole_file
+                0x000000000000f1e0                _dl_debug_printf
+                0x000000000000f290                _dl_debug_printf_c
+                0x000000000000f340                _dl_dprintf
+                0x000000000000f3e0                _dl_name_match_p
+                0x000000000000f450                _dl_higher_prime_number
+                0x000000000000f4d0                _dl_strtoul
+                0x000000000000f630                _dl_check_map_versions
+                0x000000000000fd80                _dl_check_all_versions
+                0x000000000000fdf0                _dl_start_profile
+                0x00000000000105d0                __GI__dl_mcount
+                0x00000000000105d0                _dl_mcount
+                0x0000000000010b40                _dl_next_tls_modid
+                0x0000000000010c40                _dl_count_modids
+                0x0000000000010ca0                _dl_determine_tlsoffset
+                0x0000000000010e70                _dl_get_tls_static_info
+                0x0000000000010e90                _dl_allocate_tls_storage
+                0x0000000000010f50                __GI__dl_allocate_tls_init
+                0x0000000000010f50                _dl_allocate_tls_init
+                0x00000000000111f0                __GI__dl_allocate_tls
+                0x00000000000111f0                _dl_allocate_tls
+                0x0000000000011230                _dl_deallocate_tls
+                0x0000000000011230                __GI__dl_deallocate_tls
+                0x00000000000112b0                _dl_update_slotinfo
+                0x0000000000011540                __GI___tls_get_addr
+                0x0000000000011540                ___tls_get_addr
+                0x0000000000011580                _dl_tls_get_addr_soft
+                0x0000000000011600                _dl_add_to_slotinfo
+                0x00000000000116e0                __tls_get_addr_slow
+                0x0000000000011710                _dl_get_origin
+                0x0000000000011890                _dl_scope_free
+                0x0000000000011960                _dl_make_stack_executable
+                0x0000000000011960                __GI__dl_make_stack_executable
+                0x00000000000119f0                _dl_check_caller
+                0x0000000000011e20                __GI__dl_find_dso_for_object
+                0x0000000000011e20                _dl_find_dso_for_object
+                0x0000000000011ee0                _dl_open
+                0x0000000000012220                _dl_show_scope
+                0x0000000000012de0                _dl_close_worker
+                0x0000000000013d40                _dl_close
+                0x0000000000013db0                _dl_runtime_profile_avx512
+                0x0000000000014230                _dl_runtime_profile_avx
+                0x00000000000146b0                _dl_runtime_profile_sse
+                0x00000000000148b0                _dl_runtime_resolve_fxsave
+                0x0000000000014930                _dl_runtime_resolve_xsave
+                0x0000000000014a00                _dl_runtime_resolve_xsavec
+                0x0000000000014af0                _dl_exception_create
+                0x0000000000014af0                __GI__dl_exception_create
+                0x0000000000014c00                __GI__dl_exception_create_format
+                0x0000000000014c00                _dl_exception_create_format
+                0x0000000000014f20                _dl_exception_free
+                0x0000000000014f20                __GI__dl_exception_free
+                0x0000000000014f50                _dl_cache_libcmp
+                0x0000000000015030                _dl_load_cache_lookup
+                0x00000000000156c0                _dl_unload_cache
+                0x00000000000157b0                __tunable_set_val
+                0x00000000000157d0                __GI___tunables_init
+                0x0000000000015cb0                __tunable_get_val
+                0x0000000000015cb0                __GI___tunable_get_val
+                0x0000000000015d30                _dl_make_tlsdesc_dynamic
+                0x0000000000016000                _dl_tlsdesc_resolve_rela_fixup
+                0x00000000000161c0                _dl_tlsdesc_resolve_hold_fixup
+                0x0000000000016200                _dl_unmap
+                0x0000000000016280                _dl_tlsdesc_return
+                0x0000000000016290                _dl_tlsdesc_undefweak
+                0x00000000000162a0                _dl_tlsdesc_dynamic
+                0x0000000000016340                _dl_tlsdesc_resolve_rela
+                0x00000000000163b0                _dl_tlsdesc_resolve_hold
+                0x0000000000016430                __tls_get_addr
+                0x0000000000016470                __get_cpu_features
+                0x0000000000016480                _dl_tunable_set_hwcaps
+                0x0000000000017380                _dl_sysdep_start
+                0x0000000000017a70                _dl_sysdep_start_cleanup
+                0x0000000000017a80                _dl_show_auxv
+                0x0000000000017c30                _dl_discover_osversion
+                0x0000000000017e00                _dl_next_ld_env_entry
+                0x0000000000017e50                unsetenv
+                0x0000000000017ec0                malloc
+                0x0000000000017fd0                calloc
+                0x0000000000018010                free
+                0x0000000000018040                __sigjmp_save
+                0x0000000000018050                __strerror_r
+                0x0000000000018130                __GI___libc_fatal
+                0x0000000000018130                __libc_fatal
+                0x0000000000018160                __GI___chk_fail
+                0x0000000000018160                __chk_fail
+                0x0000000000018170                __GI___assert_fail
+                0x0000000000018170                __assert_fail
+                0x00000000000181c0                realloc
+                0x0000000000018250                __GI___assert_perror_fail
+                0x0000000000018250                __assert_perror_fail
+                0x00000000000182c0                _itoa
+                0x0000000000018310                __strsep
+                0x0000000000018310                strsep
+                0x0000000000018310                __strsep_g
+                0x0000000000018450                _dl_signal_exception
+                0x00000000000184a0                _dl_signal_error
+                0x00000000000184f0                _dl_signal_cexception
+                0x0000000000018570                _dl_signal_cerror
+                0x0000000000018600                _dl_catch_exception
+                0x00000000000186b0                _dl_catch_error
+                0x0000000000018700                _dl_receive_error
+                0x0000000000018740                _dl_resolve_conflicts
+                0x00000000000188c0                __brk
+                0x00000000000188c0                brk
+                0x0000000000018910                sbrk
+                0x0000000000018910                __sbrk
+                0x00000000000189a0                __getcwd
+                0x00000000000189a0                getcwd
+                0x0000000000018dd0                openat64
+                0x0000000000018e30                __alloc_dir
+                0x0000000000018f30                __opendir
+                0x0000000000018f30                opendir
+                0x0000000000018fd0                __fxstatat
+                0x0000000000018fd0                __fxstatat64
+                0x0000000000018fd0                __GI___fxstatat64
+ .text          0x0000000000019020       0xe2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+                0x00000000000190d0                __libc_check_standard_fds
+ .text          0x0000000000019102        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ *fill*         0x0000000000019102        0xe 
+ .text          0x0000000000019110       0x57 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+                0x0000000000019110                __sigsetjmp
+                0x0000000000019110                __GI___sigsetjmp
+ *fill*         0x0000000000019167        0x9 
+ .text          0x0000000000019170       0x50 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+                0x0000000000019170                __longjmp
+ .text          0x00000000000191c0       0x3b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+                0x00000000000191c0                __GI_strchr
+                0x00000000000191c0                index
+                0x00000000000191c0                strchr
+ .text          0x00000000000191fb       0x2f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+                0x00000000000191fb                __GI_strcmp
+                0x00000000000191fb                strcmp
+ .text          0x000000000001922a       0x1e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+                0x000000000001922a                strcspn
+                0x000000000001922a                __GI_strcspn
+ *fill*         0x0000000000019248        0x8 
+ .text          0x0000000000019250       0x41 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+                0x0000000000019250                __GI___strdup
+                0x0000000000019250                __strdup
+                0x0000000000019250                strdup
+ .text          0x0000000000019291       0x2a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+                0x0000000000019291                strlen
+                0x0000000000019291                __GI_strlen
+ .text          0x00000000000192bb       0x2a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+                0x00000000000192bb                __strnlen
+                0x00000000000192bb                strnlen
+                0x00000000000192bb                __GI___strnlen
+                0x00000000000192bb                __GI_strnlen
+ .text          0x00000000000192e5       0x2a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+                0x00000000000192e5                __GI_memchr
+                0x00000000000192e5                memchr
+                0x00000000000192e5                __memchr
+ .text          0x000000000001930f       0x5c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+                0x000000000001930f                bcmp
+                0x000000000001930f                __GI_memcmp
+                0x000000000001930f                memcmp
+ .text          0x000000000001936b       0xb1 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+                0x000000000001936b                memmove
+                0x000000000001936b                __GI_memmove
+                0x000000000001936b                __libc_memmove
+ .text          0x000000000001941c       0x8d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+                0x000000000001941c                __GI_memset
+                0x000000000001941c                memset
+ .text          0x00000000000194a9       0xb1 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+                0x00000000000194a9                mempcpy
+                0x00000000000194a9                __GI_mempcpy
+                0x00000000000194a9                __mempcpy
+                0x00000000000194a9                __GI___mempcpy
+ .text          0x000000000001955a       0x2f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+                0x000000000001955a                stpcpy
+                0x000000000001955a                __GI_stpcpy
+                0x000000000001955a                __stpcpy
+                0x000000000001955a                __GI___stpcpy
+ .text          0x0000000000019589       0xb1 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+                0x0000000000019589                __GI_memcpy
+                0x0000000000019589                __new_memcpy
+                0x0000000000019589                memcpy@@GLIBC_2.14
+ .text          0x000000000001963a       0x2a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+                0x000000000001963a                __GI___rawmemchr
+                0x000000000001963a                __rawmemchr
+                0x000000000001963a                rawmemchr
+ *fill*         0x0000000000019664        0xc 
+ .text          0x0000000000019670     0x1439 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+                0x0000000000019670                __strcmp_sse2
+ *fill*         0x000000000001aaa9        0x7 
+ .text          0x000000000001aab0      0x2a3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+                0x000000000001aab0                __strcmp_sse2_unaligned
+ .text          0x000000000001ad53        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ *fill*         0x000000000001ad53        0xd 
+ .text          0x000000000001ad60      0x323 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+                0x000000000001ad60                __memchr_sse2
+ *fill*         0x000000000001b083        0xd 
+ .text          0x000000000001b090      0x1f9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+                0x000000000001b090                __rawmemchr_sse2
+ .text          0x000000000001b289        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .text          0x000000000001b289        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ *fill*         0x000000000001b289        0x7 
+ .text          0x000000000001b290      0x400 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+                0x000000000001b290                __memcmp_sse2
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .text          0x000000000001b690        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .text          0x000000000001b690      0x21a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+                0x000000000001b690                __strchr_sse2
+ .text          0x000000000001b8aa        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ *fill*         0x000000000001b8aa        0x6 
+ .text          0x000000000001b8b0      0x19c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+                0x000000000001b8b0                __strlen_sse2
+                0x000000000001b8b0                __GI___strlen_sse2
+ *fill*         0x000000000001ba4c        0x4 
+ .text          0x000000000001ba50      0x218 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+                0x000000000001ba50                __strnlen_sse2
+ .text          0x000000000001bc68        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .text          0x000000000001bc68        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ *fill*         0x000000000001bc68        0x8 
+ .text          0x000000000001bc70       0xdc /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+                0x000000000001bc70                __stpcpy_sse2
+ .text          0x000000000001bd4c        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ *fill*         0x000000000001bd4c        0x4 
+ .text          0x000000000001bd50      0x6b0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+                0x000000000001bd50                __stpcpy_sse2_unaligned
+ .text          0x000000000001c400        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .text          0x000000000001c400        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .text          0x000000000001c400       0x97 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+                0x000000000001c400                __strcspn_sse2
+ .text          0x000000000001c497        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .text          0x000000000001c497        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .text          0x000000000001c497        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ *fill*         0x000000000001c497        0x9 
+ .text          0x000000000001c4a0      0x3e9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+                0x000000000001c4a0                __mempcpy_chk_sse2_unaligned
+                0x000000000001c4b0                __mempcpy_sse2_unaligned
+                0x000000000001c4c0                __memcpy_chk_sse2_unaligned
+                0x000000000001c4c0                __memmove_chk_sse2_unaligned
+                0x000000000001c4d0                __memmove_sse2_unaligned
+                0x000000000001c4d0                __memcpy_sse2_unaligned
+                0x000000000001c4d0                memcpy@GLIBC_2.2.5
+                0x000000000001c500                __mempcpy_chk_erms
+                0x000000000001c510                __mempcpy_erms
+                0x000000000001c520                __memcpy_chk_erms
+                0x000000000001c520                __memmove_chk_erms
+                0x000000000001c530                __memmove_erms
+                0x000000000001c530                __memcpy_erms
+                0x000000000001c560                __mempcpy_chk_sse2_unaligned_erms
+                0x000000000001c570                __mempcpy_sse2_unaligned_erms
+                0x000000000001c580                __memmove_chk_sse2_unaligned_erms
+                0x000000000001c580                __memcpy_chk_sse2_unaligned_erms
+                0x000000000001c590                __memmove_sse2_unaligned_erms
+                0x000000000001c590                __memcpy_sse2_unaligned_erms
+ .text          0x000000000001c889        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .text          0x000000000001c889        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ *fill*         0x000000000001c889        0x7 
+ .text          0x000000000001c890      0x193 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+                0x000000000001c890                __bzero
+                0x000000000001c890                bzero
+                0x000000000001c8a0                __wmemset_chk_sse2_unaligned
+                0x000000000001c8b0                __wmemset_sse2_unaligned
+                0x000000000001c8d0                __memset_chk_sse2_unaligned
+                0x000000000001c8e0                __memset_sse2_unaligned
+                0x000000000001c910                __memset_chk_erms
+                0x000000000001c920                __memset_erms
+                0x000000000001c930                __memset_chk_sse2_unaligned_erms
+                0x000000000001c940                __memset_sse2_unaligned_erms
+ .text          0x000000000001ca23        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .text          0x000000000001ca23        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ *fill*         0x000000000001ca23        0xd 
+ .text          0x000000000001ca30      0x5fd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+                0x000000000001d000                __cache_sysconf
+ *fill*         0x000000000001d02d        0x3 
+ .text          0x000000000001d030       0x2c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+                0x000000000001d030                __closedir
+                0x000000000001d030                closedir
+ *fill*         0x000000000001d05c        0x4 
+ .text          0x000000000001d060       0xf8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+                0x000000000001d060                readdir
+                0x000000000001d060                __readdir64
+                0x000000000001d060                __readdir
+                0x000000000001d060                __GI___readdir64
+                0x000000000001d060                readdir64
+ *fill*         0x000000000001d158        0x8 
+ .text          0x000000000001d160       0x93 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+                0x000000000001d160                rewinddir
+                0x000000000001d160                __rewinddir
+                0x000000000001d160                __GI___rewinddir
+ *fill*         0x000000000001d1f3        0xd 
+ .text          0x000000000001d200       0x8d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+                0x000000000001d200                __getdents
+                0x000000000001d200                __getdents64
+ *fill*         0x000000000001d28d        0x3 
+ .text          0x000000000001d290       0x9a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+                0x000000000001d290                fdopendir
+                0x000000000001d290                __fdopendir
+ *fill*         0x000000000001d32a        0x6 
+ .text          0x000000000001d330       0x21 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+                0x000000000001d330                uname
+                0x000000000001d330                __GI_uname
+                0x000000000001d330                __uname
+                0x000000000001d330                __GI___uname
+ *fill*         0x000000000001d351        0xf 
+ .text          0x000000000001d360       0x58 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+                0x000000000001d360                _Exit
+                0x000000000001d360                __GI__exit
+                0x000000000001d360                _exit
+ *fill*         0x000000000001d3b8        0x8 
+ .text          0x000000000001d3c0        0x8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+                0x000000000001d3c0                __getpid
+                0x000000000001d3c0                getpid
+                0x000000000001d3c0                __GI_getpid
+                0x000000000001d3c0                __GI___getpid
+ .text          0x000000000001d3c8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ *fill*         0x000000000001d3c8        0x8 
+ .text          0x000000000001d3d0       0x4c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+                0x000000000001d3d0                _xstat
+                0x000000000001d3d0                __xstat64
+                0x000000000001d3d0                __GI___xstat64
+                0x000000000001d3d0                __GI___xstat
+                0x000000000001d3d0                __xstat
+ *fill*         0x000000000001d41c        0x4 
+ .text          0x000000000001d420       0x4c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+                0x000000000001d420                __GI___fxstat
+                0x000000000001d420                __GI___fxstat64
+                0x000000000001d420                __fxstat64
+                0x000000000001d420                _fxstat
+                0x000000000001d420                __fxstat
+ *fill*         0x000000000001d46c        0x4 
+ .text          0x000000000001d470       0x4c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+                0x000000000001d470                __GI___lxstat
+                0x000000000001d470                _lxstat
+                0x000000000001d470                __lxstat
+                0x000000000001d470                __lxstat64
+                0x000000000001d470                __GI___lxstat64
+ *fill*         0x000000000001d4bc        0x4 
+ .text          0x000000000001d4c0      0x17a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+                0x000000000001d4c0                __GI___open64
+                0x000000000001d4c0                __open
+                0x000000000001d4c0                __GI___open
+                0x000000000001d4c0                __libc_open64
+                0x000000000001d4c0                open64
+                0x000000000001d4c0                __GI___libc_open
+                0x000000000001d4c0                open
+                0x000000000001d4c0                __open64
+                0x000000000001d5c0                __GI___open_nocancel
+                0x000000000001d5c0                __open_nocancel
+                0x000000000001d5c0                __GI___open64_nocancel
+                0x000000000001d5c0                __open64_nocancel
+ *fill*         0x000000000001d63a        0x6 
+ .text          0x000000000001d640      0x16a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+                0x000000000001d640                __openat64
+                0x000000000001d640                __GI___openat
+                0x000000000001d640                __GI___openat64
+                0x000000000001d640                __libc_openat64
+                0x000000000001d640                __openat
+                0x000000000001d640                openat
+                0x000000000001d740                __GI___openat64_nocancel
+                0x000000000001d740                __openat64_nocancel
+                0x000000000001d740                __GI___openat_nocancel
+ *fill*         0x000000000001d7aa        0x6 
+ .text          0x000000000001d7b0       0xc4 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+                0x000000000001d7b0                __read
+                0x000000000001d7b0                __GI_read
+                0x000000000001d7b0                __libc_read
+                0x000000000001d7b0                __GI___read
+                0x000000000001d7b0                read
+                0x000000000001d7b0                __GI___libc_read
+                0x000000000001d850                __read_nocancel
+                0x000000000001d850                __GI___read_nocancel
+ *fill*         0x000000000001d874        0xc 
+ .text          0x000000000001d880       0xcc /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+                0x000000000001d880                __write
+                0x000000000001d880                __GI_write
+                0x000000000001d880                write
+                0x000000000001d880                __GI___libc_write
+                0x000000000001d880                __GI___write
+                0x000000000001d880                __libc_write
+                0x000000000001d920                __GI___write_nocancel
+                0x000000000001d920                __write_nocancel
+ *fill*         0x000000000001d94c        0x4 
+ .text          0x000000000001d950       0x2c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+                0x000000000001d950                __GI___lseek
+                0x000000000001d950                __lseek64
+                0x000000000001d950                lseek
+                0x000000000001d950                __libc_lseek64
+                0x000000000001d950                llseek
+                0x000000000001d950                __lseek
+                0x000000000001d950                __libc_lseek
+                0x000000000001d950                lseek64
+ *fill*         0x000000000001d97c        0x4 
+ .text          0x000000000001d980       0x2a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+                0x000000000001d980                access
+                0x000000000001d980                __access
+ *fill*         0x000000000001d9aa        0x6 
+ .text          0x000000000001d9b0      0x15f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+                0x000000000001da20                __libc_fcntl
+                0x000000000001da20                __GI___libc_fcntl
+                0x000000000001da20                __GI___fcntl
+                0x000000000001da20                __fcntl
+                0x000000000001da20                fcntl
+                0x000000000001dae0                __GI___fcntl_nocancel
+                0x000000000001dae0                __fcntl_nocancel
+ *fill*         0x000000000001db0f        0x1 
+ .text          0x000000000001db10       0xaa /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+                0x000000000001db10                __libc_close
+                0x000000000001db10                __close
+                0x000000000001db10                __GI___close
+                0x000000000001db10                close
+                0x000000000001db90                __GI___close_nocancel
+                0x000000000001db90                __close_nocancel
+ *fill*         0x000000000001dbba        0x6 
+ .text          0x000000000001dbc0       0xe9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+                0x000000000001dbc0                __GI___mmap
+                0x000000000001dbc0                __mmap
+                0x000000000001dbc0                mmap
+                0x000000000001dbc0                __GI___mmap64
+                0x000000000001dbc0                __mmap64
+                0x000000000001dbc0                mmap64
+ *fill*         0x000000000001dca9        0x7 
+ .text          0x000000000001dcb0       0x21 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+                0x000000000001dcb0                munmap
+                0x000000000001dcb0                __GI___munmap
+                0x000000000001dcb0                __GI_munmap
+                0x000000000001dcb0                __munmap
+ *fill*         0x000000000001dcd1        0xf 
+ .text          0x000000000001dce0       0x21 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+                0x000000000001dce0                __mprotect
+                0x000000000001dce0                __GI___mprotect
+                0x000000000001dce0                __GI_mprotect
+                0x000000000001dce0                mprotect
+ *fill*         0x000000000001dd01        0xf 
+ .text          0x000000000001dd10      0x1ce /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+                0x000000000001dd60                __profil
+                0x000000000001dd60                profil
+ *fill*         0x000000000001dede        0x2 
+ .text          0x000000000001dee0        0xb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+                0x000000000001dee0                __GI___profile_frequency
+                0x000000000001dee0                __profile_frequency
+ *fill*         0x000000000001deeb        0x5 
+ .text          0x000000000001def0       0x4c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+                0x000000000001def0                __lll_lock_wait_private
+                0x000000000001df20                __lll_unlock_wake_private
+ *fill*         0x000000000001df3c        0x4 
+ .text          0x000000000001df40       0xb9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+                0x000000000001df40                __libc_enable_asynccancel
+                0x000000000001dfa0                __libc_disable_asynccancel
+ .text          0x000000000001dff9        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ *fill*         0x000000000001dff9        0x7 
+ .text          0x000000000001e000       0x53 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+                0x000000000001e000                _dl_addr_inside_object
+ *fill*         0x000000000001e053        0xd 
+ .text          0x000000000001e060      0x274 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+                0x000000000001e080                __libc_sigaction
+                0x000000000001e080                __GI___libc_sigaction
+                0x000000000001e2b0                sigaction
+                0x000000000001e2b0                __GI___sigaction
+                0x000000000001e2b0                __sigaction
+ *fill*         0x000000000001e2d4        0xc 
+ .text          0x000000000001e2e0       0x21 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+                0x000000000001e2e0                setitimer
+                0x000000000001e2e0                __setitimer
+                0x000000000001e2e0                __GI_setitimer
+                0x000000000001e2e0                __GI___setitimer
+ *fill*         0x000000000001e301        0xf 
+ .text          0x000000000001e310      0x5c6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+                0x000000000001e310                pthread_equal
+                0x000000000001e340                pthread_attr_destroy
+                0x000000000001e370                pthread_attr_init@@GLIBC_2.2.5
+                0x000000000001e370                __pthread_attr_init_2_1
+                0x000000000001e3a0                pthread_attr_getdetachstate
+                0x000000000001e3d0                pthread_attr_setdetachstate
+                0x000000000001e400                pthread_attr_getinheritsched
+                0x000000000001e430                pthread_attr_setinheritsched
+                0x000000000001e460                pthread_attr_getschedparam
+                0x000000000001e490                pthread_attr_setschedparam
+                0x000000000001e4c0                pthread_attr_getschedpolicy
+                0x000000000001e4f0                pthread_attr_setschedpolicy
+                0x000000000001e520                pthread_attr_getscope
+                0x000000000001e550                pthread_attr_setscope
+                0x000000000001e580                pthread_condattr_destroy
+                0x000000000001e5b0                pthread_condattr_init
+                0x000000000001e5e0                pthread_cond_broadcast@@GLIBC_2.3.2
+                0x000000000001e5e0                __pthread_cond_broadcast
+                0x000000000001e610                pthread_cond_destroy@@GLIBC_2.3.2
+                0x000000000001e610                __pthread_cond_destroy
+                0x000000000001e640                pthread_cond_init@@GLIBC_2.3.2
+                0x000000000001e640                __pthread_cond_init
+                0x000000000001e670                pthread_cond_signal@@GLIBC_2.3.2
+                0x000000000001e670                __pthread_cond_signal
+                0x000000000001e6a0                pthread_cond_wait@@GLIBC_2.3.2
+                0x000000000001e6a0                __pthread_cond_wait
+                0x000000000001e6d0                pthread_cond_timedwait@@GLIBC_2.3.2
+                0x000000000001e6d0                __pthread_cond_timedwait
+                0x000000000001e700                pthread_exit
+                0x000000000001e700                __pthread_exit
+                0x000000000001e730                pthread_getschedparam
+                0x000000000001e760                pthread_setschedparam
+                0x000000000001e790                pthread_mutex_destroy
+                0x000000000001e7c0                pthread_mutex_init
+                0x000000000001e7f0                pthread_mutex_lock
+                0x000000000001e820                pthread_mutex_unlock
+                0x000000000001e850                pthread_self
+                0x000000000001e880                __pthread_setcancelstate
+                0x000000000001e880                pthread_setcancelstate
+                0x000000000001e8b0                pthread_setcanceltype
+ *fill*         0x000000000001e8d6        0xa 
+ .text          0x000000000001e8e0      0x25a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+                0x000000000001e8e0                __run_exit_handlers
+                0x000000000001eb20                __GI_exit
+                0x000000000001eb20                exit
+ *fill*         0x000000000001eb3a        0x6 
+ .text          0x000000000001eb40      0x22c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+                0x000000000001eb40                __new_exitfn
+                0x000000000001ec70                __internal_atexit
+                0x000000000001ed60                __cxa_atexit
+                0x000000000001ed60                __GI___cxa_atexit
+ *fill*         0x000000000001ed6c        0x4 
+ .text          0x000000000001ed70      0x135 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+                0x000000000001ed70                __cxa_thread_atexit_impl
+                0x000000000001ee40                __GI___call_tls_dtors
+                0x000000000001ee40                __call_tls_dtors
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000      0x169
+ .text.unlikely
+                0x0000000000000000      0x169 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.text.ssse3     0x0000000000000000     0xd5e3
+ .text.ssse3    0x0000000000000000     0x1259 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+                0x0000000000000000                __GI___strcmp_ssse3
+                0x0000000000000000                __strcmp_ssse3
+ *fill*         0x0000000000001259        0x7 
+ .text.ssse3    0x0000000000001260     0x29e6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+                0x0000000000001260                __mempcpy_chk_ssse3
+                0x0000000000001270                __mempcpy_ssse3
+                0x0000000000001280                __memcpy_chk_ssse3
+                0x0000000000001290                __memcpy_ssse3
+ *fill*         0x0000000000003c46        0xa 
+ .text.ssse3    0x0000000000003c50     0x2b77 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+                0x0000000000003c50                __memmove_chk_ssse3
+                0x0000000000003c60                __memmove_ssse3
+ *fill*         0x00000000000067c7        0x9 
+ .text.ssse3    0x00000000000067d0     0x2ae6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+                0x00000000000067d0                __mempcpy_chk_ssse3_back
+                0x00000000000067e0                __mempcpy_ssse3_back
+                0x00000000000067f0                __memcpy_chk_ssse3_back
+                0x0000000000006800                __memcpy_ssse3_back
+ *fill*         0x00000000000092b6        0xa 
+ .text.ssse3    0x00000000000092c0     0x2b16 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+                0x00000000000092c0                __memmove_chk_ssse3_back
+                0x00000000000092d0                __memmove_ssse3_back
+ *fill*         0x000000000000bdd6        0xa 
+ .text.ssse3    0x000000000000bde0     0x1803 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+                0x000000000000bde0                __stpcpy_ssse3
+
+.text.avx       0x0000000000000000     0x14eb
+ .text.avx      0x0000000000000000      0x2cd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+                0x0000000000000000                __memchr_avx2
+ *fill*         0x00000000000002cd        0x3 
+ .text.avx      0x00000000000002d0      0x13d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+                0x00000000000002d0                __rawmemchr_avx2
+ *fill*         0x000000000000040d        0x3 
+ .text.avx      0x0000000000000410      0x3d4 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+                0x0000000000000410                __memcmp_avx2_movbe
+ *fill*         0x00000000000007e4        0xc 
+ .text.avx      0x00000000000007f0      0x224 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+                0x00000000000007f0                __strchr_avx2
+ *fill*         0x0000000000000a14        0xc 
+ .text.avx      0x0000000000000a20      0x190 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+                0x0000000000000a20                __strlen_avx2
+ .text.avx      0x0000000000000bb0      0x320 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+                0x0000000000000bb0                __strnlen_avx2
+ .text.avx      0x0000000000000ed0      0x464 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+                0x0000000000000ed0                __mempcpy_chk_avx_unaligned
+                0x0000000000000ee0                __mempcpy_avx_unaligned
+                0x0000000000000ef0                __memcpy_chk_avx_unaligned
+                0x0000000000000ef0                __memmove_chk_avx_unaligned
+                0x0000000000000f00                __memcpy_avx_unaligned
+                0x0000000000000f00                __memmove_avx_unaligned
+                0x0000000000000f30                __mempcpy_chk_avx_unaligned_erms
+                0x0000000000000f40                __mempcpy_avx_unaligned_erms
+                0x0000000000000f50                __memmove_chk_avx_unaligned_erms
+                0x0000000000000f50                __memcpy_chk_avx_unaligned_erms
+                0x0000000000000f60                __memcpy_avx_unaligned_erms
+                0x0000000000000f60                __memmove_avx_unaligned_erms
+ *fill*         0x0000000000001334        0xc 
+ .text.avx      0x0000000000001340      0x1ab /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+                0x0000000000001340                __wmemset_chk_avx2_unaligned
+                0x0000000000001350                __wmemset_avx2_unaligned
+                0x0000000000001370                __memset_chk_avx2_unaligned
+                0x0000000000001380                __memset_avx2_unaligned
+                0x00000000000013b0                __memset_avx2_erms
+                0x00000000000013d0                __memset_chk_avx2_unaligned_erms
+                0x00000000000013e0                __memset_avx2_unaligned_erms
+
+.text.sse4.1    0x0000000000000000     0x163e
+ .text.sse4.1   0x0000000000000000     0x163e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+                0x0000000000000000                __memcmp_sse4_1
+
+.text.avx512    0x0000000000000000     0x1191
+ .text.avx512   0x0000000000000000      0x768 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+                0x0000000000000000                __mempcpy_chk_avx512_no_vzeroupper
+                0x0000000000000010                __mempcpy_avx512_no_vzeroupper
+                0x0000000000000020                __memcpy_chk_avx512_no_vzeroupper
+                0x0000000000000020                __memmove_chk_avx512_no_vzeroupper
+                0x0000000000000030                __memcpy_avx512_no_vzeroupper
+                0x0000000000000030                __memmove_avx512_no_vzeroupper
+ *fill*         0x0000000000000768        0x8 
+ .text.avx512   0x0000000000000770      0x280 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+                0x0000000000000770                __memset_chk_avx512_no_vzeroupper
+                0x0000000000000780                __memset_avx512_no_vzeroupper
+ .text.avx512   0x00000000000009f0      0x598 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+                0x00000000000009f0                __mempcpy_chk_avx512_unaligned
+                0x0000000000000a00                __mempcpy_avx512_unaligned
+                0x0000000000000a10                __memcpy_chk_avx512_unaligned
+                0x0000000000000a10                __memmove_chk_avx512_unaligned
+                0x0000000000000a20                __memmove_avx512_unaligned
+                0x0000000000000a20                __memcpy_avx512_unaligned
+                0x0000000000000a60                __mempcpy_chk_avx512_unaligned_erms
+                0x0000000000000a70                __mempcpy_avx512_unaligned_erms
+                0x0000000000000a80                __memcpy_chk_avx512_unaligned_erms
+                0x0000000000000a80                __memmove_chk_avx512_unaligned_erms
+                0x0000000000000a90                __memmove_avx512_unaligned_erms
+                0x0000000000000a90                __memcpy_avx512_unaligned_erms
+ *fill*         0x0000000000000f88        0x8 
+ .text.avx512   0x0000000000000f90      0x201 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+                0x0000000000000f90                __wmemset_chk_avx512_unaligned
+                0x0000000000000fa0                __wmemset_avx512_unaligned
+                0x0000000000000fc0                __memset_chk_avx512_unaligned
+                0x0000000000000fd0                __memset_avx512_unaligned
+                0x0000000000001010                __memset_avx512_erms
+                0x0000000000001030                __memset_chk_avx512_unaligned_erms
+                0x0000000000001040                __memset_avx512_unaligned_erms
+
+.text.atom      0x0000000000000000     0x1a83
+ .text.atom     0x0000000000000000      0x315 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+                0x0000000000000000                __strchr_sse2_no_bsf
+ *fill*         0x0000000000000315        0xb 
+ .text.atom     0x0000000000000320     0x1763 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+                0x0000000000000320                __memcmp_ssse3
+
+.text.sse4.2    0x0000000000000000      0x13f
+ .text.sse4.2   0x0000000000000000      0x13f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+                0x0000000000000000                __strcspn_sse42
+
+.text.startup   0x0000000000000000      0x49f
+ .text.startup  0x0000000000000000      0x49f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+
+.text.compat    0x0000000000000000      0x15f
+ .text.compat   0x0000000000000000      0x15f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+                0x0000000000000000                pthread_cond_broadcast@GLIBC_2.2.5
+                0x0000000000000000                __pthread_cond_broadcast_2_0
+                0x0000000000000030                __pthread_cond_destroy_2_0
+                0x0000000000000030                pthread_cond_destroy@GLIBC_2.2.5
+                0x0000000000000060                __pthread_cond_init_2_0
+                0x0000000000000060                pthread_cond_init@GLIBC_2.2.5
+                0x0000000000000090                __pthread_cond_signal_2_0
+                0x0000000000000090                pthread_cond_signal@GLIBC_2.2.5
+                0x00000000000000c0                pthread_cond_wait@GLIBC_2.2.5
+                0x00000000000000c0                __pthread_cond_wait_2_0
+                0x00000000000000f0                pthread_cond_timedwait@GLIBC_2.2.5
+                0x00000000000000f0                __pthread_cond_timedwait_2_0
+                0x0000000000000120                __pthread_unwind
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x0000000000000000     0x1160
+ *(.rodata)
+ .rodata        0x0000000000000000      0xd48 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x0000000000000ca0                __GI__itoa_lower_digits
+                0x0000000000000ca0                _itoa_lower_digits
+ .rodata        0x0000000000000d48       0x40 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .rodata        0x0000000000000d88       0x40 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .rodata        0x0000000000000dc8       0x80 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ *fill*         0x0000000000000e48        0x8 
+ .rodata        0x0000000000000e50       0x1f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+                0x0000000000000e50                ___m128i_shift_right
+ *fill*         0x0000000000000e6f       0x11 
+ .rodata        0x0000000000000e80      0x2e0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+
+.rodata.str1.1  0x0000000000000000     0x12ab
+ .rodata.str1.1
+                0x0000000000000000     0x1247 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .rodata.str1.1
+                0x0000000000001247       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .rodata.str1.1
+                0x000000000000125b       0x39 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .rodata.str1.1
+                0x0000000000001294       0x17 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+
+.rodata.str1.8  0x0000000000000000     0x24a5
+ .rodata.str1.8
+                0x0000000000000000     0x2481 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ *fill*         0x0000000000002481        0x7 
+ .rodata.str1.8
+                0x0000000000002488        0xb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ *fill*         0x0000000000002493        0x5 
+ .rodata.str1.8
+                0x0000000000002498        0xd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+
+.rodata.str1.16
+                0x0000000000000000      0x381
+ .rodata.str1.16
+                0x0000000000000000      0x366 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ *fill*         0x0000000000000366        0xa 
+ .rodata.str1.16
+                0x0000000000000370       0x11 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+
+.rodata.cst16   0x0000000000000000       0x20
+ .rodata.cst16  0x0000000000000000       0x20 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.cst4    0x0000000000000000        0x4
+ .rodata.cst4   0x0000000000000000        0x4 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.str1.32
+                0x0000000000000000       0x3b
+ .rodata.str1.32
+                0x0000000000000000       0x3b /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+
+.rodata.sse4.1  0x0000000000000000      0x140
+ .rodata.sse4.1
+                0x0000000000000000      0x140 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+
+.rodata.ssse3   0x0000000000000000      0xd80
+ .rodata.ssse3  0x0000000000000000      0x1c0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .rodata.ssse3  0x00000000000001c0      0x1c0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .rodata.ssse3  0x0000000000000380      0x500 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .rodata.ssse3  0x0000000000000880      0x500 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x4610
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000     0x2630 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .eh_frame      0x0000000000002630       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .eh_frame      0x0000000000002698       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .eh_frame      0x00000000000026c8       0x48 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .eh_frame      0x0000000000002710       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .eh_frame      0x0000000000002740       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .eh_frame      0x0000000000002770       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .eh_frame      0x00000000000027a0       0x50 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .eh_frame      0x00000000000027f0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .eh_frame      0x0000000000002820       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .eh_frame      0x0000000000002850       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .eh_frame      0x0000000000002880       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .eh_frame      0x00000000000028b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .eh_frame      0x00000000000028e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .eh_frame      0x0000000000002910       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .eh_frame      0x0000000000002940       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .eh_frame      0x0000000000002970       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .eh_frame      0x00000000000029a0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .eh_frame      0x00000000000029d0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .eh_frame      0x0000000000002a00       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .eh_frame      0x0000000000002a30       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .eh_frame      0x0000000000002a60       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .eh_frame      0x0000000000002a90       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .eh_frame      0x0000000000002ac0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .eh_frame      0x0000000000002af0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .eh_frame      0x0000000000002b20       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .eh_frame      0x0000000000002b50       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .eh_frame      0x0000000000002b80       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .eh_frame      0x0000000000002bb0       0x78 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000002c28       0x48 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000002c70       0x78 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000002ce8       0x48 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000002d30       0x78 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000002da8       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .eh_frame      0x0000000000002dd8       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .eh_frame      0x0000000000002e08       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .eh_frame      0x0000000000002e38       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .eh_frame      0x0000000000002e68       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .eh_frame      0x0000000000002e98       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .eh_frame      0x0000000000002ec8       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .eh_frame      0x0000000000002ef8       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .eh_frame      0x0000000000002f28       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .eh_frame      0x0000000000002f58       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .eh_frame      0x0000000000002f88       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .eh_frame      0x0000000000002fb8       0x38 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .eh_frame      0x0000000000002ff0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .eh_frame      0x0000000000003020       0x48 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000003068      0x138 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+                                        0x108 (size before relaxing)
+ .eh_frame      0x00000000000031a0       0xd8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000003278       0xd8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000003350       0xf0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000003440       0xc0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x0000000000003500       0xc0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x00000000000035c0      0x1c8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000003788       0x38 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .eh_frame      0x00000000000037c0       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .eh_frame      0x0000000000003828       0x40 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .eh_frame      0x0000000000003868       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .eh_frame      0x00000000000038d0       0x50 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .eh_frame      0x0000000000003920       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .eh_frame      0x0000000000003950       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .eh_frame      0x0000000000003980       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .eh_frame      0x00000000000039b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .eh_frame      0x00000000000039e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .eh_frame      0x0000000000003a10       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .eh_frame      0x0000000000003a40       0x70 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000003ab0       0x78 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x0000000000003b28       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .eh_frame      0x0000000000003b90       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .eh_frame      0x0000000000003bf8       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .eh_frame      0x0000000000003c28       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .eh_frame      0x0000000000003c58       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000003cc0       0x58 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000003d18       0x70 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .eh_frame      0x0000000000003d88       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .eh_frame      0x0000000000003db8       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .eh_frame      0x0000000000003de8       0x80 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .eh_frame      0x0000000000003e68       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .eh_frame      0x0000000000003e98       0x68 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000003f00       0x48 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000003f48       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .eh_frame      0x0000000000003f78       0xf0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x0000000000004068       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .eh_frame      0x0000000000004098      0x3a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+                                        0x310 (size before relaxing)
+ .eh_frame      0x0000000000004440       0x90 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x00000000000044d0       0xc0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000004590       0x80 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss           0x0000000000000000       0x18
+ *(.tbss)
+ .tbss          0x0000000000000000        0x4 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+                0x0000000000000000                errno
+                0x0000000000000000                __libc_errno
+ *fill*         0x0000000000000004        0x4 
+ .tbss          0x0000000000000008       0x10 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+ *(.igot)
+
+.got.plt
+ *(.got.plt)
+ *(.igot.plt)
+
+.data           0x0000000000000000      0xfb8
+ *(.data)
+ .data          0x0000000000000000      0xf78 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x0000000000000000                _rtld_global
+                0x0000000000000000                _rtld_local
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .data          0x0000000000000f78       0x40 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+                0x0000000000000f78                __x86_raw_shared_cache_size
+                0x0000000000000f80                __x86_raw_shared_cache_size_half
+                0x0000000000000f88                __x86_shared_cache_size
+                0x0000000000000f90                __x86_shared_cache_size_half
+                0x0000000000000f98                __x86_raw_data_cache_size
+                0x0000000000000fa0                __x86_raw_data_cache_size_half
+                0x0000000000000fa8                __x86_data_cache_size
+                0x0000000000000fb0                __x86_data_cache_size_half
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .data          0x0000000000000fb8        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.data.rel.ro    0x0000000000000000      0x694
+ .data.rel.ro   0x0000000000000000      0x694 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x00000000000000b0                __pointer_chk_guard_local
+                0x00000000000000b8                _dl_skip_args
+                0x00000000000000c0                __GI__dl_argv
+                0x00000000000000c0                _dl_argv
+                0x00000000000000c8                _dl_argc
+                0x00000000000000e0                _rtld_global_ro
+                0x00000000000000e0                _rtld_local_ro
+                0x00000000000002e0                __stack_prot
+                0x0000000000000680                _dl_random
+                0x0000000000000688                __libc_stack_end
+                0x0000000000000688                __GI___libc_stack_end
+                0x0000000000000690                __GI___libc_enable_secure
+                0x0000000000000690                __libc_enable_secure
+
+.init_array     0x0000000000000000        0x8
+ .init_array    0x0000000000000000        0x8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+
+.data.rel.local
+                0x0000000000000000        0x8
+ .data.rel.local
+                0x0000000000000000        0x8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+                0x0000000000000000                __exit_funcs
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000      0x630
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000      0x118 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+                0x00000000000000e0                __libc_multiple_libcs
+                0x0000000000000110                __curbrk
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .bss           0x0000000000000118        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .bss           0x0000000000000118        0x8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+                0x0000000000000118                _environ
+                0x0000000000000118                __environ
+                0x0000000000000118                environ
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .bss           0x0000000000000120        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .bss           0x0000000000000120       0xe0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .bss           0x0000000000000200        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .bss           0x0000000000000200        0x1 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+                0x0000000000000200                __exit_funcs_done
+ *fill*         0x0000000000000201       0x1f 
+ .bss           0x0000000000000220      0x410 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .bss           0x0000000000000630        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+ *(COMMON)
+ COMMON         0x0000000000000630        0x0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ COMMON         0x0000000000000630        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ COMMON         0x0000000000000630        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ COMMON         0x0000000000000630        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ COMMON         0x0000000000000630        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss)
+ *(LARGE_COMMON)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000     0x1164
+ *(.comment)
+ .comment       0x0000000000000000      0x7a9 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .comment       0x00000000000007a9       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .comment       0x00000000000007de       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .comment       0x0000000000000813       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .comment       0x0000000000000848       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .comment       0x000000000000087d       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .comment       0x00000000000008b2       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .comment       0x00000000000008e7       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .comment       0x000000000000091c       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .comment       0x0000000000000951       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .comment       0x0000000000000986       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .comment       0x00000000000009bb       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .comment       0x00000000000009f0       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .comment       0x0000000000000a25       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .comment       0x0000000000000a5a       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .comment       0x0000000000000a8f       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .comment       0x0000000000000ac4       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .comment       0x0000000000000af9       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .comment       0x0000000000000b2e       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .comment       0x0000000000000b63       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .comment       0x0000000000000b98       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .comment       0x0000000000000bcd       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .comment       0x0000000000000c02       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .comment       0x0000000000000c37       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .comment       0x0000000000000c6c       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .comment       0x0000000000000ca1       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .comment       0x0000000000000cd6       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .comment       0x0000000000000d0b       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .comment       0x0000000000000d40       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .comment       0x0000000000000d75       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .comment       0x0000000000000daa       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .comment       0x0000000000000ddf       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .comment       0x0000000000000e14       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .comment       0x0000000000000e49       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .comment       0x0000000000000e7e       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .comment       0x0000000000000eb3       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .comment       0x0000000000000ee8       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .comment       0x0000000000000f1d       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .comment       0x0000000000000f52       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .comment       0x0000000000000f87       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .comment       0x0000000000000fbc       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .comment       0x0000000000000ff1       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .comment       0x0000000000001026       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .comment       0x000000000000105b       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .comment       0x0000000000001090       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .comment       0x00000000000010c5       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .comment       0x00000000000010fa       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .comment       0x000000000000112f       0x35 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.gnu.warning.llseek
+                0x0000000000000000       0x3f
+ .gnu.warning.llseek
+                0x0000000000000000       0x3f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000     0x18c0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x7a0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_aranges
+                0x00000000000007a0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .debug_aranges
+                0x00000000000007d0       0x20 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .debug_aranges
+                0x00000000000007f0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .debug_aranges
+                0x0000000000000820       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .debug_aranges
+                0x0000000000000850       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .debug_aranges
+                0x0000000000000880       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .debug_aranges
+                0x00000000000008b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .debug_aranges
+                0x00000000000008e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .debug_aranges
+                0x0000000000000910       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .debug_aranges
+                0x0000000000000940       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .debug_aranges
+                0x0000000000000970       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .debug_aranges
+                0x00000000000009a0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .debug_aranges
+                0x00000000000009d0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .debug_aranges
+                0x0000000000000a00       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .debug_aranges
+                0x0000000000000a30       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .debug_aranges
+                0x0000000000000a60       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .debug_aranges
+                0x0000000000000a90       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .debug_aranges
+                0x0000000000000ac0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .debug_aranges
+                0x0000000000000af0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000b20       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .debug_aranges
+                0x0000000000000b50       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .debug_aranges
+                0x0000000000000b80       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .debug_aranges
+                0x0000000000000bb0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .debug_aranges
+                0x0000000000000be0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .debug_aranges
+                0x0000000000000c10       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .debug_aranges
+                0x0000000000000c40       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000c70       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .debug_aranges
+                0x0000000000000ca0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .debug_aranges
+                0x0000000000000cd0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .debug_aranges
+                0x0000000000000d00       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .debug_aranges
+                0x0000000000000d30       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .debug_aranges
+                0x0000000000000d60       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .debug_aranges
+                0x0000000000000d90       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .debug_aranges
+                0x0000000000000dc0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .debug_aranges
+                0x0000000000000df0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .debug_aranges
+                0x0000000000000e20       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .debug_aranges
+                0x0000000000000e50       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .debug_aranges
+                0x0000000000000e80       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .debug_aranges
+                0x0000000000000eb0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .debug_aranges
+                0x0000000000000ee0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .debug_aranges
+                0x0000000000000f10       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .debug_aranges
+                0x0000000000000f40       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .debug_aranges
+                0x0000000000000f70       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .debug_aranges
+                0x0000000000000fa0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .debug_aranges
+                0x0000000000000fd0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .debug_aranges
+                0x0000000000001000       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_aranges
+                0x0000000000001030       0x20 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .debug_aranges
+                0x0000000000001050       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .debug_aranges
+                0x0000000000001080       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x00000000000010b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .debug_aranges
+                0x00000000000010e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000001110       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000001140       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000001170       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .debug_aranges
+                0x00000000000011a0       0x40 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_aranges
+                0x00000000000011e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .debug_aranges
+                0x0000000000001210       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_aranges
+                0x0000000000001240       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_aranges
+                0x0000000000001270       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_aranges
+                0x00000000000012a0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .debug_aranges
+                0x00000000000012d0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .debug_aranges
+                0x0000000000001300       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_aranges
+                0x0000000000001330       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .debug_aranges
+                0x0000000000001360       0x20 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .debug_aranges
+                0x0000000000001380       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_aranges
+                0x00000000000013b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_aranges
+                0x00000000000013e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_aranges
+                0x0000000000001410       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_aranges
+                0x0000000000001440       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_aranges
+                0x0000000000001470       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_aranges
+                0x00000000000014a0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_aranges
+                0x00000000000014d0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_aranges
+                0x0000000000001500       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_aranges
+                0x0000000000001530       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_aranges
+                0x0000000000001560       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_aranges
+                0x0000000000001590       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_aranges
+                0x00000000000015c0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .debug_aranges
+                0x00000000000015f0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .debug_aranges
+                0x0000000000001620       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .debug_aranges
+                0x0000000000001650       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .debug_aranges
+                0x0000000000001680       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .debug_aranges
+                0x00000000000016b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .debug_aranges
+                0x00000000000016e0       0x20 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .debug_aranges
+                0x0000000000001700       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .debug_aranges
+                0x0000000000001730       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_aranges
+                0x0000000000001760       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .debug_aranges
+                0x0000000000001790       0xa0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_aranges
+                0x0000000000001830       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_aranges
+                0x0000000000001860       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .debug_aranges
+                0x0000000000001890       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x87678
+ *(.debug_info)
+ .debug_info    0x0000000000000000    0x57d6d /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_info    0x0000000000057d6d      0x8b9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .debug_info    0x0000000000058626      0x52d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .debug_info    0x0000000000058b53       0x6e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .debug_info    0x0000000000058bc1       0x71 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .debug_info    0x0000000000058c32     0x1a99 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .debug_info    0x000000000005a6cb     0x1abe /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .debug_info    0x000000000005c189     0x1abe /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .debug_info    0x000000000005dc47      0x1c0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .debug_info    0x000000000005de07     0x1a94 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .debug_info    0x000000000005f89b     0x1a99 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .debug_info    0x0000000000061334     0x1a9e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .debug_info    0x0000000000062dd2     0x1ab3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .debug_info    0x0000000000064885     0x1ab3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .debug_info    0x0000000000066338     0x1ab3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .debug_info    0x0000000000067deb     0x1abd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .debug_info    0x00000000000698a8     0x1ac8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .debug_info    0x000000000006b370     0x1abd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .debug_info    0x000000000006ce2d     0x1a99 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .debug_info    0x000000000006e8c6       0x6e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .debug_info    0x000000000006e934       0x87 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .debug_info    0x000000000006e9bb       0x7b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .debug_info    0x000000000006ea36       0x7b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .debug_info    0x000000000006eab1       0x7e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .debug_info    0x000000000006eb2f       0x7d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .debug_info    0x000000000006ebac       0x7d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .debug_info    0x000000000006ec29       0x6e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .debug_info    0x000000000006ec97       0x83 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .debug_info    0x000000000006ed1a       0x7d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .debug_info    0x000000000006ed97       0x7e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .debug_info    0x000000000006ee15       0x7e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .debug_info    0x000000000006ee93       0x83 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .debug_info    0x000000000006ef16       0x83 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .debug_info    0x000000000006ef99       0x8e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .debug_info    0x000000000006f027       0x7b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .debug_info    0x000000000006f0a2       0x7d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .debug_info    0x000000000006f11f       0x7b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .debug_info    0x000000000006f19a       0x7b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .debug_info    0x000000000006f215       0x7d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .debug_info    0x000000000006f292       0x7d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .debug_info    0x000000000006f30f       0x6e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .debug_info    0x000000000006f37d       0x7e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .debug_info    0x000000000006f3fb       0x87 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .debug_info    0x000000000006f482       0x84 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .debug_info    0x000000000006f506       0x7e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .debug_info    0x000000000006f584       0x6f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .debug_info    0x000000000006f5f3      0x707 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_info    0x000000000006fcfa      0x127 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .debug_info    0x000000000006fe21       0x8d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .debug_info    0x000000000006feae       0x8c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .debug_info    0x000000000006ff3a       0x8c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .debug_info    0x000000000006ffc6       0x8c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .debug_info    0x0000000000070052       0x8b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .debug_info    0x00000000000700dd       0x8b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .debug_info    0x0000000000070168       0x8b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .debug_info    0x00000000000701f3     0x2aec /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_info    0x0000000000072cdf      0x654 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .debug_info    0x0000000000073333      0x747 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_info    0x0000000000073a7a      0x66d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_info    0x00000000000740e7      0x7cd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_info    0x00000000000748b4      0x80e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .debug_info    0x00000000000750c2       0x75 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .debug_info    0x0000000000075137      0x5e7 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_info    0x000000000007571e       0x75 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .debug_info    0x0000000000075793       0xbd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .debug_info    0x0000000000075850      0x752 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_info    0x0000000000075fa2      0x751 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_info    0x00000000000766f3      0x752 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_info    0x0000000000076e45      0x915 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_info    0x000000000007775a      0x943 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_info    0x000000000007809d      0x936 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_info    0x00000000000789d3      0x93d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_info    0x0000000000079310      0x62c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_info    0x000000000007993c      0x66a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_info    0x0000000000079fa6      0xabb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_info    0x000000000007aa61      0x77d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_info    0x000000000007b1de     0x1d79 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_info    0x000000000007cf57       0x74 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .debug_info    0x000000000007cfcb       0x74 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .debug_info    0x000000000007d03f      0xf53 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .debug_info    0x000000000007df92     0x1a1d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .debug_info    0x000000000007f9af       0x82 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .debug_info    0x000000000007fa31       0x82 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .debug_info    0x000000000007fab3      0x601 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .debug_info    0x00000000000800b4      0xe63 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .debug_info    0x0000000000080f17      0xb03 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_info    0x0000000000081a1a       0x74 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .debug_info    0x0000000000081a8e     0x2a5f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_info    0x00000000000844ed     0x1182 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_info    0x000000000008566f      0x969 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .debug_info    0x0000000000085fd8     0x16a0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.debug_abbrev   0x0000000000000000     0xf9ea
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0x8ed0 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_abbrev  0x0000000000008ed0      0x219 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .debug_abbrev  0x00000000000090e9      0x10d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .debug_abbrev  0x00000000000091f6       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .debug_abbrev  0x000000000000920a       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .debug_abbrev  0x000000000000921e      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .debug_abbrev  0x00000000000094c6      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .debug_abbrev  0x000000000000976e      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .debug_abbrev  0x0000000000009a16      0x134 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .debug_abbrev  0x0000000000009b4a      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .debug_abbrev  0x0000000000009df2      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .debug_abbrev  0x000000000000a09a      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .debug_abbrev  0x000000000000a342      0x2a6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .debug_abbrev  0x000000000000a5e8      0x2a6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .debug_abbrev  0x000000000000a88e      0x2a6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .debug_abbrev  0x000000000000ab34      0x2a6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .debug_abbrev  0x000000000000adda      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .debug_abbrev  0x000000000000b082      0x2a6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .debug_abbrev  0x000000000000b328      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .debug_abbrev  0x000000000000b5d0       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .debug_abbrev  0x000000000000b5e4       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .debug_abbrev  0x000000000000b5f8       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .debug_abbrev  0x000000000000b60c       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .debug_abbrev  0x000000000000b620       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .debug_abbrev  0x000000000000b634       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .debug_abbrev  0x000000000000b648       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .debug_abbrev  0x000000000000b65c       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .debug_abbrev  0x000000000000b670       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .debug_abbrev  0x000000000000b684       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .debug_abbrev  0x000000000000b698       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .debug_abbrev  0x000000000000b6ac       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .debug_abbrev  0x000000000000b6c0       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .debug_abbrev  0x000000000000b6d4       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .debug_abbrev  0x000000000000b6e8       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .debug_abbrev  0x000000000000b6fc       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .debug_abbrev  0x000000000000b710       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .debug_abbrev  0x000000000000b724       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .debug_abbrev  0x000000000000b738       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .debug_abbrev  0x000000000000b74c       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .debug_abbrev  0x000000000000b760       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .debug_abbrev  0x000000000000b774       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .debug_abbrev  0x000000000000b788       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .debug_abbrev  0x000000000000b79c       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .debug_abbrev  0x000000000000b7b0       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .debug_abbrev  0x000000000000b7c4       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .debug_abbrev  0x000000000000b7d8       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .debug_abbrev  0x000000000000b7ec      0x203 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_abbrev  0x000000000000b9ef       0xad /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .debug_abbrev  0x000000000000ba9c       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .debug_abbrev  0x000000000000bab0       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000bac4       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .debug_abbrev  0x000000000000bad8       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .debug_abbrev  0x000000000000baec       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000bb00       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000bb14       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .debug_abbrev  0x000000000000bb28      0x473 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_abbrev  0x000000000000bf9b      0x1b2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .debug_abbrev  0x000000000000c14d      0x1d3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_abbrev  0x000000000000c320      0x192 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_abbrev  0x000000000000c4b2      0x1fa /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_abbrev  0x000000000000c6ac      0x1be /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .debug_abbrev  0x000000000000c86a       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .debug_abbrev  0x000000000000c87e      0x185 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_abbrev  0x000000000000ca03       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .debug_abbrev  0x000000000000ca17       0x40 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .debug_abbrev  0x000000000000ca57      0x17b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_abbrev  0x000000000000cbd2      0x17b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_abbrev  0x000000000000cd4d      0x17b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_abbrev  0x000000000000cec8      0x1f9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_abbrev  0x000000000000d0c1      0x226 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_abbrev  0x000000000000d2e7      0x26b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_abbrev  0x000000000000d552      0x270 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_abbrev  0x000000000000d7c2      0x197 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_abbrev  0x000000000000d959      0x1a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_abbrev  0x000000000000db01      0x2a6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_abbrev  0x000000000000dda7      0x1eb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_abbrev  0x000000000000df92      0x2f2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_abbrev  0x000000000000e284       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .debug_abbrev  0x000000000000e298       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .debug_abbrev  0x000000000000e2ac      0x307 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .debug_abbrev  0x000000000000e5b3      0x25e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .debug_abbrev  0x000000000000e811       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .debug_abbrev  0x000000000000e825       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .debug_abbrev  0x000000000000e839      0x154 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .debug_abbrev  0x000000000000e98d      0x205 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .debug_abbrev  0x000000000000eb92      0x218 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_abbrev  0x000000000000edaa       0x14 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .debug_abbrev  0x000000000000edbe      0x3c5 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_abbrev  0x000000000000f183      0x2e3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_abbrev  0x000000000000f466      0x28a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .debug_abbrev  0x000000000000f6f0      0x2fa /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.debug_line     0x0000000000000000    0x1909e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0xc6df /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_line    0x000000000000c6df      0x245 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .debug_line    0x000000000000c924      0x11f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .debug_line    0x000000000000ca43       0x5e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setjmp.os)
+ .debug_line    0x000000000000caa1       0x61 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(__longjmp.os)
+ .debug_line    0x000000000000cb02      0x298 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .debug_line    0x000000000000cd9a      0x297 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .debug_line    0x000000000000d031      0x2aa /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .debug_line    0x000000000000d2db       0xb1 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .debug_line    0x000000000000d38c      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .debug_line    0x000000000000d634      0x2aa /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .debug_line    0x000000000000d8de      0x2a8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .debug_line    0x000000000000db86      0x2ba /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .debug_line    0x000000000000de40      0x2c3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .debug_line    0x000000000000e103      0x2bb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .debug_line    0x000000000000e3be      0x2c3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .debug_line    0x000000000000e681      0x2b4 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .debug_line    0x000000000000e935      0x2c2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .debug_line    0x000000000000ebf7      0x2ac /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .debug_line    0x000000000000eea3      0x48f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2.os)
+ .debug_line    0x000000000000f332      0x10c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-sse2-unaligned.os)
+ .debug_line    0x000000000000f43e      0x45f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp-ssse3.os)
+ .debug_line    0x000000000000f89d      0x124 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-sse2.os)
+ .debug_line    0x000000000000f9c1       0xd3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-sse2.os)
+ .debug_line    0x000000000000fa94      0x10c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr-avx2.os)
+ .debug_line    0x000000000000fba0       0xc0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr-avx2.os)
+ .debug_line    0x000000000000fc60      0x14c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse2.os)
+ .debug_line    0x000000000000fdac      0x146 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-avx2-movbe.os)
+ .debug_line    0x000000000000fef2      0x500 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-sse4.os)
+ .debug_line    0x00000000000103f2      0x947 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3.os)
+ .debug_line    0x0000000000010d39      0x99b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3.os)
+ .debug_line    0x00000000000116d4      0x87d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy-ssse3-back.os)
+ .debug_line    0x0000000000011f51      0x882 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-ssse3-back.os)
+ .debug_line    0x00000000000127d3      0x1b2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .debug_line    0x0000000000012985       0xde /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2.os)
+ .debug_line    0x0000000000012a63       0xe0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-avx2.os)
+ .debug_line    0x0000000000012b43       0xa5 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-sse2.os)
+ .debug_line    0x0000000000012be8       0xa5 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-sse2.os)
+ .debug_line    0x0000000000012c8d       0xca /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen-avx2.os)
+ .debug_line    0x0000000000012d57      0x11d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen-avx2.os)
+ .debug_line    0x0000000000012e74       0x95 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2.os)
+ .debug_line    0x0000000000012f09      0x627 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-ssse3.os)
+ .debug_line    0x0000000000013530      0x1e2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .debug_line    0x0000000000013712      0x111 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr-sse2-no-bsf.os)
+ .debug_line    0x0000000000013823      0x5cd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp-ssse3.os)
+ .debug_line    0x0000000000013df0       0x80 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-sse2.os)
+ .debug_line    0x0000000000013e70      0x1f3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_line    0x0000000000014063       0x90 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .debug_line    0x00000000000140f3       0xeb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .debug_line    0x00000000000141de      0x166 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .debug_line    0x0000000000014344      0x160 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .debug_line    0x00000000000144a4      0x16e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .debug_line    0x0000000000014612       0xcd /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .debug_line    0x00000000000146df       0xd3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .debug_line    0x00000000000147b2       0xd8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .debug_line    0x000000000001488a      0x5e8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_line    0x0000000000014e72      0x232 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .debug_line    0x00000000000150a4      0x238 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_line    0x00000000000152dc      0x1f2 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_line    0x00000000000154ce      0x21e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_line    0x00000000000156ec      0x282 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .debug_line    0x000000000001596e       0x58 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(uname.os)
+ .debug_line    0x00000000000159c6      0x176 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_line    0x0000000000015b3c       0x57 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getpid.os)
+ .debug_line    0x0000000000015b93       0x2a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .debug_line    0x0000000000015bbd      0x1c9 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_line    0x0000000000015d86      0x1ca /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_line    0x0000000000015f50      0x1ca /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_line    0x000000000001611a      0x26a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_line    0x0000000000016384      0x27c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_line    0x0000000000016600      0x237 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_line    0x0000000000016837      0x238 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_line    0x0000000000016a6f      0x180 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_line    0x0000000000016bef      0x1bb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_line    0x0000000000016daa      0x25b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_line    0x0000000000017005      0x205 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_line    0x000000000001720a      0x2cc /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_line    0x00000000000174d6       0x58 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(munmap.os)
+ .debug_line    0x000000000001752e       0x58 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mprotect.os)
+ .debug_line    0x0000000000017586      0x34d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .debug_line    0x00000000000178d3      0x294 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .debug_line    0x0000000000017b67       0x81 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-lowlevellock.os)
+ .debug_line    0x0000000000017be8       0x8b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc-cancellation.os)
+ .debug_line    0x0000000000017c73      0x187 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .debug_line    0x0000000000017dfa      0x222 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .debug_line    0x000000000001801c      0x2e4 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_line    0x0000000000018300       0x58 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(setitimer.os)
+ .debug_line    0x0000000000018358      0x53f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_line    0x0000000000018897      0x2b3 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_line    0x0000000000018b4a      0x221 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .debug_line    0x0000000000018d6b      0x333 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x5310a
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x32276 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_str     0x0000000000032276      0x682 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .debug_str     0x00000000000328f8      0x4af /home/kyo/Desktop/sys/glibc/build/libc_pic.a(errno.os)
+ .debug_str     0x0000000000032da7     0x1210 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strchr.os)
+ .debug_str     0x0000000000033fb7     0x126d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcmp.os)
+ .debug_str     0x0000000000035224     0x1270 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn.os)
+ .debug_str     0x0000000000036494      0x209 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .debug_str     0x000000000003669d     0x1210 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strlen.os)
+ .debug_str     0x00000000000378ad     0x1215 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strnlen.os)
+ .debug_str     0x0000000000038ac2     0x1210 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memchr.os)
+ .debug_str     0x0000000000039cd2     0x126d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .debug_str     0x000000000003af3f     0x1277 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .debug_str     0x000000000003c1b6     0x126d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .debug_str     0x000000000003d423     0x1272 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .debug_str     0x000000000003e695     0x126f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(stpcpy.os)
+ .debug_str     0x000000000003f904     0x1273 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .debug_str     0x0000000000040b77     0x121b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rawmemchr.os)
+ .debug_str     0x0000000000041d92      0x309 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_str     0x000000000004209b      0x215 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(varshift.os)
+ .debug_str     0x00000000000422b0     0x2427 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_str     0x00000000000446d7      0x557 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .debug_str     0x0000000000044c2e      0x5ce /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_str     0x00000000000451fc      0x565 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_str     0x0000000000045761      0x5ed /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_str     0x0000000000045d4e      0x67c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .debug_str     0x00000000000463ca      0x4ef /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_str     0x00000000000468b9      0x17d /home/kyo/Desktop/sys/glibc/build/libc_pic.a(environ.os)
+ .debug_str     0x0000000000046a36      0x612 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_str     0x0000000000047048      0x610 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_str     0x0000000000047658      0x615 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_str     0x0000000000047c6d      0x658 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_str     0x00000000000482c5      0x646 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_str     0x000000000004890b      0x636 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_str     0x0000000000048f41      0x63b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_str     0x000000000004957c      0x52a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_str     0x0000000000049aa6      0x56f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_str     0x000000000004a015      0x6b0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_str     0x000000000004a6c5      0x5f6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_str     0x000000000004acbb     0x1260 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_str     0x000000000004bf1b      0xa08 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .debug_str     0x000000000004c923     0x121a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(prof-freq.os)
+ .debug_str     0x000000000004db3d      0x61f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(libc_multiple_threads.os)
+ .debug_str     0x000000000004e15c      0xb2c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .debug_str     0x000000000004ec88      0x7c0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_str     0x000000000004f448     0x1a5a /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_str     0x0000000000050ea2      0xb56 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_str     0x00000000000519f8      0x617 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .debug_str     0x000000000005200f     0x10fb /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.debug_loc      0x0000000000000000    0x38ed7
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000    0x3038a /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_loc     0x000000000003038a       0xe1 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(check_fds.os)
+ .debug_loc     0x000000000003046b      0x107 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strdup.os)
+ .debug_loc     0x0000000000030572      0x594 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_loc     0x0000000000030b06     0x1def /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_loc     0x00000000000328f5       0x82 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(closedir.os)
+ .debug_loc     0x0000000000032977      0x1d6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_loc     0x0000000000032b4d       0x4c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_loc     0x0000000000032b99      0x33f /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_loc     0x0000000000032ed8       0xbe /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fdopendir.os)
+ .debug_loc     0x0000000000032f96      0x148 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_loc     0x00000000000330de      0x1de /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_loc     0x00000000000332bc      0x1de /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_loc     0x000000000003349a      0x1de /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_loc     0x0000000000033678      0x89c /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_loc     0x0000000000033f14      0x837 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_loc     0x000000000003474b      0x5ef /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_loc     0x0000000000034d3a      0x5ef /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_loc     0x0000000000035329       0xe0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_loc     0x0000000000035409       0x6e /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_loc     0x0000000000035477      0x6ec /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_loc     0x0000000000035b63      0x261 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_loc     0x0000000000035dc4      0x6b8 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_loc     0x000000000003647c      0x2f6 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(profil.os)
+ .debug_loc     0x0000000000036772       0x65 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(dl-addr-obj.os)
+ .debug_loc     0x00000000000367d7      0x385 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_loc     0x0000000000036b5c     0x1866 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_loc     0x00000000000383c2      0x35b /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_loc     0x000000000003871d      0x564 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+ .debug_loc     0x0000000000038c81      0x256 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x8c70
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x7850 /home/kyo/Desktop/sys/glibc/build/elf/dl-allobjs.os
+ .debug_ranges  0x0000000000007850       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcmp.os)
+ .debug_ranges  0x0000000000007880       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memmove.os)
+ .debug_ranges  0x00000000000078b0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memset.os)
+ .debug_ranges  0x00000000000078e0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mempcpy.os)
+ .debug_ranges  0x0000000000007910       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(memcpy.os)
+ .debug_ranges  0x0000000000007940      0x200 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(strcspn-c.os)
+ .debug_ranges  0x0000000000007b40      0x440 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cacheinfo.os)
+ .debug_ranges  0x0000000000007f80       0xd0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(readdir.os)
+ .debug_ranges  0x0000000000008050       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(rewinddir.os)
+ .debug_ranges  0x0000000000008080       0xb0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(getdents.os)
+ .debug_ranges  0x0000000000008130       0x90 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(_exit.os)
+ .debug_ranges  0x00000000000081c0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(xstat.os)
+ .debug_ranges  0x00000000000081f0       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fxstat.os)
+ .debug_ranges  0x0000000000008220       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lxstat.os)
+ .debug_ranges  0x0000000000008250      0x140 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(open64.os)
+ .debug_ranges  0x0000000000008390      0x140 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(openat64.os)
+ .debug_ranges  0x00000000000084d0      0x130 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(read.os)
+ .debug_ranges  0x0000000000008600      0x130 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(write.os)
+ .debug_ranges  0x0000000000008730       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(lseek64.os)
+ .debug_ranges  0x0000000000008760       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(access.os)
+ .debug_ranges  0x0000000000008790      0x130 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(fcntl.os)
+ .debug_ranges  0x00000000000088c0      0x120 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(close.os)
+ .debug_ranges  0x00000000000089e0       0x90 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(mmap64.os)
+ .debug_ranges  0x0000000000008a70       0xb0 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(sigaction.os)
+ .debug_ranges  0x0000000000008b20       0x90 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(forward.os)
+ .debug_ranges  0x0000000000008bb0       0x90 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(exit.os)
+ .debug_ranges  0x0000000000008c40       0x30 /home/kyo/Desktop/sys/glibc/build/libc_pic.a(cxa_atexit.os)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/kyo/Desktop/sys/glibc/build/elf/librtld.map.o elf64-x86-64)

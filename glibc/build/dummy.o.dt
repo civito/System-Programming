@@ -1,0 +1,15 @@
+/home/kyo/Desktop/sys/glibc/build/dummy.o: \
+ /home/kyo/Desktop/sys/glibc/build/dummy.c ../include/stdc-predef.h \
+ /home/kyo/Desktop/sys/glibc/build/libc-modules.h \
+ ../include/libc-symbols.h /home/kyo/Desktop/sys/glibc/build/config.h \
+ ../sysdeps/generic/symbol-hacks.h
+
+../include/stdc-predef.h:
+
+/home/kyo/Desktop/sys/glibc/build/libc-modules.h:
+
+../include/libc-symbols.h:
+
+/home/kyo/Desktop/sys/glibc/build/config.h:
+
+../sysdeps/generic/symbol-hacks.h:
