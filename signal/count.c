@@ -140,8 +140,8 @@ int main(int argc, char * argv[]){
 		
 	}else if(pid > 0){
 
-		while(1){
 			signal(SIGUSR1, myfunc);
+		while(1){
                         count = WrRd(argv[2], getpid(), 1);
                         if(count == atoi(argv[1])){
 	      		        Print_time(&start);
