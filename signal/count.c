@@ -10,6 +10,8 @@
 #define BUFFSIZE 50
 #define BILLION 1000000000L
 
+
+/*
 static void sig_alrm(int signo) {}
 
 unsigned int kill_sleep(unsigned int seconds, pid_t pid) {
@@ -27,7 +29,7 @@ unsigned int sleep1(unsigned int seconds) {
         alarm(seconds);
         pause();
         return(alarm(0));
-}
+}*/
 
 void Print_time(struct timespec *start){
 	struct timespec end;
@@ -44,8 +46,11 @@ int WrRd(char* file, pid_t pid, int num){
 	int count=0;
         char rbuf[10];
         char wbuf[10];
+	int i;
 
 	fd = open(file, O_RDWR | O_SYNC, S_IRWXU | S_IRWXG | S_IRWXO );
+
+	for(i=0; i<10000000; i++);
 
         if(read(fd, rbuf, 50)== -1){
         	printf("read Error!\n");
@@ -54,7 +59,6 @@ int WrRd(char* file, pid_t pid, int num){
 
         count = atoi(rbuf);
         count+=1;
-
         printf("P%d : %d, %d\n",num, pid, count);
 
         sprintf(wbuf, "%d", count);
@@ -65,6 +69,9 @@ int WrRd(char* file, pid_t pid, int num){
 
 	return count;
 }
+
+
+void myfunc(int signo){}
 
 int main(int argc, char * argv[]){
 	int fd;
@@ -95,7 +102,9 @@ int main(int argc, char * argv[]){
 	
 	if((pid = fork()) == 0){
        		 if((pid = fork()) == 0){
-				sleep1(100);
+			signal(SIGUSR1, myfunc);
+				pause();
+//				sleep1(100);
 			while(1){
 				count = WrRd(argv[2], getpid(), 3);
                                 if(count == atoi(argv[1])){
@@ -105,10 +114,14 @@ int main(int argc, char * argv[]){
                                        return 0;
                                 }
 //				sleep1(1);
-				kill_sleep(100, getppid()-1);
+			        kill((int)getpid()-2, SIGUSR1);
+			        pause();
+//				kill_sleep(100, getppid()-1);
 			}
 		}else if(pid > 0){
-				sleep1(100);
+			signal(SIGUSR1, myfunc);
+				pause();
+//sleep1(100);
 			while(1){
                                 count = WrRd(argv[2], getpid(), 2);
                                 if(count == atoi(argv[1])){
@@ -118,7 +131,8 @@ int main(int argc, char * argv[]){
                                         return 0;
                                 }
 //	     	 		sleep1(1);
-				kill_sleep(100, pid);
+                                kill((int)pid, SIGUSR1);
+                                pause();				
 			}
 		}else{
 			printf("fork2() Error!\n");
@@ -127,6 +141,7 @@ int main(int argc, char * argv[]){
 	}else if(pid > 0){
 
 		while(1){
+			signal(SIGUSR1, myfunc);
                         count = WrRd(argv[2], getpid(), 1);
                         if(count == atoi(argv[1])){
 	      		        Print_time(&start);
@@ -135,7 +150,9 @@ int main(int argc, char * argv[]){
                                 return 0;
                         }
 //			sleep1(1);
-			kill_sleep(100, pid);
+//			kill_sleep(100, pid);
+                        kill((int)pid, SIGUSR1);
+                        pause();
 		}
 	}else{
 		printf("fork() Error!\n");
