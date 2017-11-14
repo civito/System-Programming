@@ -13,7 +13,7 @@
 
 
 static void sig_alrm(int signo) {}
-
+/*
 unsigned int kill_sleep(unsigned int seconds, pid_t pid) {
 	if (signal(SIGALRM, sig_alrm) == SIG_ERR) 
 		return(seconds);
@@ -21,7 +21,7 @@ unsigned int kill_sleep(unsigned int seconds, pid_t pid) {
         kill((int)pid, SIGALRM);
 	pause();
 	return(alarm(0)); 
-}
+}*/
 
 unsigned int sleep1(unsigned int seconds) {
         if (signal(SIGALRM, sig_alrm) == SIG_ERR)
@@ -50,7 +50,6 @@ int WrRd(char* file, pid_t pid, int num){
 
 	fd = open(file, O_RDWR | O_SYNC, S_IRWXU | S_IRWXG | S_IRWXO );
 
-//	for(i=0; i<10000000; i++);
 
         if(read(fd, rbuf, 50)== -1){
         	printf("read Error!\n");
@@ -71,7 +70,6 @@ int WrRd(char* file, pid_t pid, int num){
 }
 
 
-//void myfunc(int signo){}
 
 int main(int argc, char * argv[]){
 	int fd;
@@ -102,8 +100,6 @@ int main(int argc, char * argv[]){
 	
 	if((pid = fork()) == 0){
        		 if((pid = fork()) == 0){
-//			signal(SIGUSR1, myfunc);
-//				pause();
 				sleep1(100);
 			while(1){
 				count = WrRd(argv[2], getpid(), 3);
@@ -113,16 +109,12 @@ int main(int argc, char * argv[]){
                                        kill(getpid()-2,9);
                                        return 0;
                                 }
-//				sleep1(1);
-//			        kill((int)getpid()-2, SIGUSR1);
-//			        pause();
+
 //				kill_sleep(100, getppid()-1);
 				kill(getppid()-1, SIGALRM);
 				sleep1(100);
 			}
 		}else if(pid > 0){
-//			signal(SIGUSR1, myfunc);
-//				pause();
 			sleep1(100);
 			while(1){
                                 count = WrRd(argv[2], getpid(), 2);
@@ -131,10 +123,7 @@ int main(int argc, char * argv[]){
 					kill(getppid(),9);
                                         kill(pid,9);
                                         return 0;
-                                }
-//	     	 		sleep1(1);
-//                              kill((int)pid, SIGUSR1);
-//                              pause();				
+                                }		
 				kill(pid ,SIGALRM);
 				sleep1(100);
 			}
@@ -143,8 +132,6 @@ int main(int argc, char * argv[]){
 		}		
 		
 	}else if(pid > 0){
-
-//			signal(SIGUSR1, myfunc);
 		while(1){
                         count = WrRd(argv[2], getpid(), 1);
                         if(count == atoi(argv[1])){
@@ -157,8 +144,6 @@ int main(int argc, char * argv[]){
 //			kill_sleep(100, pid);
 			kill(pid, SIGALRM);
 			sleep1(100);
-//                      kill((int)pid, SIGUSR1);
-//                        pause();
 		}
 	}else{
 		printf("fork() Error!\n");
