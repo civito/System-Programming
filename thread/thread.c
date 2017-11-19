@@ -3,16 +3,24 @@
 #include<stdint.h>
 #include<stdlib.h>
 #include<unistd.h>
+#include<sys/time.h>
+#include<pthread.h>
+
+#define T_NUM 40 // 1,2,4,8,10,20,40
 
 #define ARR_SIZE 4000
-#define BILLION 1000000000L
+#define TIME 1000000
+
+int **A;
+int **B;
+int **C;
 
 /* Matrix multiplication C=A*B */
-int** multi (int **A, int **B, int **C){
+void multi (int from, int to){
     int i,j,z;
     int sum = 0;
 
-    for(z=0; z<ARR_SIZE; z++){
+    for(z=from; z<to; z++){
        for(i=0; i<ARR_SIZE; i++){
           for(j=0; j<ARR_SIZE; j++){
              sum += A[z][j]*B[j][i];
@@ -21,13 +29,19 @@ int** multi (int **A, int **B, int **C){
           sum =0;
        }
     }
-   
-    return C;
+}
+
+/* Thread Function*/ 
+void * thr_fn(void * arg){
+    int num = ARR_SIZE / T_NUM;
+
+    multi(num*(int)arg, num*((int)arg+1));
 }
 
 
 int main(){
-    struct timespec start,end;
+    struct timeval START, END;
+    pthread_t tid[T_NUM];
     uint64_t diff,sum = 0;
 
 /*  initializing MAtrix A, B  */
@@ -35,9 +49,9 @@ int main(){
     FILE *fp = fopen("file1", "r");
     FILE *fp2 = fopen("file2", "r");
 
-    int **A = (int**)malloc(sizeof(int*)*ARR_SIZE);
-    int **B = (int**)malloc(sizeof(int*)*ARR_SIZE);
-    int **C = (int**)malloc(sizeof(int*)*ARR_SIZE);
+    A = (int**)malloc(sizeof(int*)*ARR_SIZE);
+    B = (int**)malloc(sizeof(int*)*ARR_SIZE);
+    C = (int**)malloc(sizeof(int*)*ARR_SIZE);
 
     int i,j,numA, numB;
 
@@ -55,22 +69,33 @@ int main(){
              B[i][j] = numB;
         }
     }
+
+
     
 /* time checking Matrix multiplication & calcultaing sum */
 
-    clock_gettime(CLOCK_MONOTONIC, &start);
+    gettimeofday(&START,NULL);
 
-    C = multi(A,B,C);
+    /* Thread = T_NUM */
+    for(i=0; i<T_NUM; i++){
+       pthread_create(&tid[i], NULL, thr_fn, (void *)i);  
+    }
+
+    for(i=0; i<T_NUM; i++){               
+        pthread_join(tid[i], NULL);
+    }      
     
     for(i=0; i<ARR_SIZE; i++){
         for(j=0; j<ARR_SIZE; j++){
             sum += C[i][j];
-        }
+       }
     }
 
-    clock_gettime(CLOCK_MONOTONIC, &end);
-    diff = BILLION * (end.tv_sec-start.tv_sec) + end.tv_nsec-start.tv_nsec;
-    printf("** time = %llu msec\n", (long long unsigned int) diff / 1000000);
+    gettimeofday(&END,NULL);
+
+    printf("** sum = %llu\n", sum);
+    diff = TIME * (END.tv_sec-START.tv_sec) + END.tv_usec-START.tv_usec;
+    printf("** time = %llu.%llu sec\n", (long long unsigned int) diff / 1000000, ((long long unsigned int) diff/1000)%1000);
     
 
     return 0;
