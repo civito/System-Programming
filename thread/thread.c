@@ -1,23 +1,28 @@
 #include<stdio.h>
+#include<time.h>
 #include<stdint.h>
 #include<stdlib.h>
 #include<unistd.h>
 #include<sys/time.h>
 #include<pthread.h>
 
-#define T_NUM 40 // 1,2,4,8,10,20,40
+#define T_NUM 8 // Number of Thread 
 
-#define ARR_SIZE 4000
+#define ARR_SIZE 1020
 #define TIME 1000000
 
 int **A;
 int **B;
-int **C;
+uint64_t **C;
+
+uint64_t SUM[ARR_SIZE] = {0,};
+
+pthread_barrier_t bar;
 
 /* Matrix multiplication C=A*B */
-void multi (int from, int to){
+void multi (int from, int to, int t_num){
     int i,j,z;
-    int sum = 0;
+    uint64_t sum = 0;
 
     for(z=from; z<to; z++){
        for(i=0; i<ARR_SIZE; i++){
@@ -25,23 +30,30 @@ void multi (int from, int to){
              sum += A[z][j]*B[j][i];
           }
           C[z][i] = sum;
+          SUM[t_num] += C[z][i];
           sum =0;
        }
     }
+    pthread_barrier_wait(&bar);
 }
 
 /* Thread Function*/ 
 void * thr_fn(void * arg){
     int num = ARR_SIZE / T_NUM;
 
-    multi(num*(int)arg, num*((int)arg+1));
+    if((long)arg == (T_NUM-1))
+        multi(num*(long)arg, ARR_SIZE, (long)arg);
+    else
+        multi(num*(long)arg, num*((long)arg+1), (long)arg);
 }
 
 
 int main(){
     struct timeval START, END;
     pthread_t tid[T_NUM];
-    uint64_t diff,sum = 0;
+    uint64_t diff,sum, sum2 = 0;
+
+    pthread_barrier_init(&bar,NULL,T_NUM);
 
 /*  initializing MAtrix A, B  */
 
@@ -50,14 +62,15 @@ int main(){
 
     A = (int**)malloc(sizeof(int*)*ARR_SIZE);
     B = (int**)malloc(sizeof(int*)*ARR_SIZE);
-    C = (int**)malloc(sizeof(int*)*ARR_SIZE);
+    C = (uint64_t**)malloc(sizeof(uint64_t*)*ARR_SIZE);
 
-    int i,j,numA, numB;
+    int j,numA, numB;
+    long i;
 
     for(int i=0; i<ARR_SIZE; i++){
         A[i] = (int*)malloc(sizeof(int)*ARR_SIZE);
         B[i] = (int*)malloc(sizeof(int)*ARR_SIZE);
-        C[i] = (int*)malloc(sizeof(int)*ARR_SIZE);
+        C[i] = (uint64_t*)malloc(sizeof(uint64_t)*ARR_SIZE);
     }
 
     for(i=0; i<ARR_SIZE; i++){
@@ -73,6 +86,8 @@ int main(){
     
 /* time checking Matrix multiplication & calcultaing sum */
 
+    printf("%d Thread is running ...\n",T_NUM);
+
     gettimeofday(&START,NULL);
 
     /* Thread = T_NUM */
@@ -83,18 +98,22 @@ int main(){
     for(i=0; i<T_NUM; i++){               
         pthread_join(tid[i], NULL);
     }      
-    
+
     for(i=0; i<ARR_SIZE; i++){
         for(j=0; j<ARR_SIZE; j++){
-            sum += C[i][j];
+            sum2 += C[i][j];
        }
     }
 
-    gettimeofday(&END,NULL);
+    for(i=0; i<T_NUM; i++)
+        sum += SUM[i];
 
-    printf("** sum = %llu\n", sum);
+    gettimeofday(&END,NULL);
+    
+    printf("** sum = %llu, sum2 = %llu\n", sum, sum2);
     diff = TIME * (END.tv_sec-START.tv_sec) + END.tv_usec-START.tv_usec;
     printf("** time = %llu.%llu sec\n", (long long unsigned int) diff / 1000000, ((long long unsigned int) diff/1000)%1000);
+    pthread_barrier_destroy(&bar);
     
 
     return 0;
