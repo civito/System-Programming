@@ -6,9 +6,9 @@
 #include<sys/time.h>
 #include<pthread.h>
 
-#define T_NUM 8 // Number of Thread 
+#define T_NUM 40 // Number of Thread 
 
-#define ARR_SIZE 1020
+#define ARR_SIZE 4000
 #define TIME 1000000
 
 int **A;
@@ -27,10 +27,10 @@ void multi (int from, int to, int t_num){
     for(z=from; z<to; z++){
        for(i=0; i<ARR_SIZE; i++){
           for(j=0; j<ARR_SIZE; j++){
+             SUM[t_num] += A[z][j]*B[j][i];
              sum += A[z][j]*B[j][i];
           }
           C[z][i] = sum;
-          SUM[t_num] += C[z][i];
           sum =0;
        }
     }
@@ -51,14 +51,14 @@ void * thr_fn(void * arg){
 int main(){
     struct timeval START, END;
     pthread_t tid[T_NUM];
-    uint64_t diff,sum, sum2 = 0;
-
+    uint64_t diff, sum2 = 0;
+    uint64_t sum = 0;
     pthread_barrier_init(&bar,NULL,T_NUM);
 
 /*  initializing MAtrix A, B  */
 
-    FILE *fp = fopen("file1", "r");
-    FILE *fp2 = fopen("file2", "r");
+    FILE *fp = fopen("sample1.txt", "r");
+    FILE *fp2 = fopen("sample2.txt", "r");
 
     A = (int**)malloc(sizeof(int*)*ARR_SIZE);
     B = (int**)malloc(sizeof(int*)*ARR_SIZE);
@@ -75,9 +75,9 @@ int main(){
 
     for(i=0; i<ARR_SIZE; i++){
         for(j=0; j<ARR_SIZE; j++){
-             fscanf(fp, "%d", &numA);
+             fscanf(fp, "%d\t", &numA);
              A[i][j] = numA;
-             fscanf(fp2, "%d", &numB);
+             fscanf(fp2, "%d\t", &numB);
              B[i][j] = numB;
         }
     }
@@ -101,16 +101,16 @@ int main(){
 
     for(i=0; i<ARR_SIZE; i++){
         for(j=0; j<ARR_SIZE; j++){
-            sum2 += C[i][j];
+            sum += C[i][j];
        }
     }
 
     for(i=0; i<T_NUM; i++)
-        sum += SUM[i];
+        sum2 += SUM[i];
 
     gettimeofday(&END,NULL);
     
-    printf("** sum = %llu, sum2 = %llu\n", sum, sum2);
+    printf("** sum = %llu\n  sum2 = %llu\n", sum,sum2);
     diff = TIME * (END.tv_sec-START.tv_sec) + END.tv_usec-START.tv_usec;
     printf("** time = %llu.%llu sec\n", (long long unsigned int) diff / 1000000, ((long long unsigned int) diff/1000)%1000);
     pthread_barrier_destroy(&bar);
