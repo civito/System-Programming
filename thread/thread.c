@@ -27,14 +27,14 @@ void multi (int from, int to, int t_num){
     for(z=from; z<to; z++){
        for(i=0; i<ARR_SIZE; i++){
           for(j=0; j<ARR_SIZE; j++){
-             SUM[t_num] += A[z][j]*B[j][i];
              sum += A[z][j]*B[j][i];
           }
           C[z][i] = sum;
           sum =0;
        }
     }
-    pthread_barrier_wait(&bar);
+//    SUM[t_num] = sum;
+//    pthread_barrier_wait(&bar);
 }
 
 /* Thread Function*/ 
@@ -49,9 +49,9 @@ void * thr_fn(void * arg){
 
 
 int main(){
-    struct timeval START, END;
+    struct timeval Pstart, Pend, Mstart, Mend;
     pthread_t tid[T_NUM];
-    uint64_t diff, sum2 = 0;
+    uint64_t Pdiff, Mdiff, sum2 = 0;
     uint64_t sum = 0;
     pthread_barrier_init(&bar,NULL,T_NUM);
 
@@ -88,7 +88,7 @@ int main(){
 
     printf("%d Thread is running ...\n",T_NUM);
 
-    gettimeofday(&START,NULL);
+    gettimeofday(&Pstart,NULL);
 
     /* Thread = T_NUM */
     for(i=0; i<T_NUM; i++){
@@ -99,20 +99,24 @@ int main(){
         pthread_join(tid[i], NULL);
     }      
 
+    gettimeofday(&Mstart,NULL);
     for(i=0; i<ARR_SIZE; i++){
         for(j=0; j<ARR_SIZE; j++){
             sum += C[i][j];
        }
     }
+    gettimeofday(&Mend,NULL);
 
-    for(i=0; i<T_NUM; i++)
-        sum2 += SUM[i];
+//    for(i=0; i<T_NUM; i++)
+//        sum2 += SUM[i];
 
-    gettimeofday(&END,NULL);
+    gettimeofday(&Pend,NULL);
     
-    printf("** sum = %llu\n  sum2 = %llu\n", sum,sum2);
-    diff = TIME * (END.tv_sec-START.tv_sec) + END.tv_usec-START.tv_usec;
-    printf("** time = %llu.%llu sec\n", (long long unsigned int) diff / 1000000, ((long long unsigned int) diff/1000)%1000);
+    printf("** sum = %llu\n", sum);
+    Pdiff = TIME * (Pend.tv_sec-Pstart.tv_sec) + Pend.tv_usec-Pstart.tv_usec;
+    Mdiff = TIME * (Mend.tv_sec-Mstart.tv_sec) + Mend.tv_usec-Mstart.tv_usec;
+    printf("** Sum time = %llu.%llu sec\n", (long long unsigned int) Mdiff / 1000000, ((long long unsigned int) Mdiff/1000)%1000);
+    printf("** Process time = %llu.%llu sec\n", (long long unsigned int) Pdiff / 1000000, ((long long unsigned int) Pdiff/1000)%1000);
     pthread_barrier_destroy(&bar);
     
 
