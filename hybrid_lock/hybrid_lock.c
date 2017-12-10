@@ -22,7 +22,7 @@ void hybrid_lock_lock()
     while(pthread_spin_trylock(&hlock.spin) != 0){
 //         printf("I'm spinning!\n");
          gettimeofday(&END,NULL);
-         if(time=(END.tv_sec -START.tv_sec)>=1){
+         if(time=(END.tv_sec -START.tv_sec)+END.tv_usec -START.tv_usec>=1){
             break;
          }
     }
