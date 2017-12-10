@@ -4,6 +4,7 @@
 #include <stdint.h>
 
 #define TIME 1000000
+
 long g_count = 0;
 pthread_spinlock_t t_spin;
 
@@ -91,7 +92,7 @@ int main(int argc, char *argv[])
 	thread_count = atol(argv[1]);
 	value = atol(argv[2]);
 
-	pthread_spin_init(&t_spin,NULL);
+/*	pthread_spin_init(&t_spin,NULL);
 
 	pthread_spin_lock(&t_spin);
 
@@ -104,7 +105,7 @@ int main(int argc, char *argv[])
 
 	pthread_join(t_tid, &Lcount);
 	pthread_spin_unlock(&t_spin);
-	pthread_spin_destroy(&t_spin);
+	pthread_spin_destroy(&t_spin);*/
 
 	hybrid_lock_init(Lcount);
 
@@ -125,6 +126,7 @@ int main(int argc, char *argv[])
 	 * an argument. Each threads will increase g_count for
 	 * value times.
 	 */
+
     gettimeofday(&mstart,NULL);
 	for (i = 0; i<thread_count; i++) {
 		rc = pthread_create(&tid[i], NULL, thread_func, (void*)value);

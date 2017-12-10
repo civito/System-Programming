@@ -4,8 +4,35 @@
 #include<stdint.h>
 
 #define TIME 1000000
-
 long g_count = 0;
+int t_Count;
+
+pthread_spinlock_t t_spin;
+
+void *test_count(void){
+    int count = 0;
+    int Lcount = 0;
+    struct timeval start, end;
+    uint64_t diff =0;
+
+    gettimeofday(&start,NULL);
+    while(pthread_spin_trylock(&t_spin) != 0){
+        count+= 1;
+       if(count == 100000) break;
+    }
+    printf("count = %d\n",count);
+    gettimeofday(&end,NULL);
+//    while((diff= test_function())>100);
+    diff = end.tv_usec-start.tv_usec;
+
+
+    printf("** Sum time = %llu \n", (long long unsigned int) diff); 
+    Lcount = 1000000000 / diff;
+
+
+//    printf("** Sum time = %llu \n", (long long unsigned int) diff); 
+    printf("** Lcount = %d \n", Lcount); 
+}
 
 void *thread_func(void *arg)
 {
@@ -29,11 +56,30 @@ void *thread_func(void *arg)
 int main(int argc, char *argv[])
 {
 	pthread_t *tid;
+    pthread_t t_tid;
 
 	long i, thread_count, value;
 	int rc;
-    struct timeval mstart, mend;
-    uint64_t diff =0;
+    int count;
+
+/*    pthread_spin_init(&t_spin,NULL);
+
+    pthread_spin_lock(&t_spin);
+
+    rc = pthread_create(&t_tid, NULL, test_count, NULL);
+    if (rc) {
+        fprintf(stderr, "pthread_create() error\n");
+        free(tid);
+         //      pthread_mutex_destroy(&g_mutex);
+         exit(0);
+    }
+
+    pthread_join(t_tid, NULL);
+    pthread_spin_unlock(&t_spin);
+    pthread_spin_destroy(&t_spin);*/
+
+    
+
 	/*
 	 * Check that the program has three arguments
 	 * If the number of arguments is not 3, terminate the process.
@@ -71,7 +117,7 @@ int main(int argc, char *argv[])
 	 * an argument. Each threads will increase g_count for
 	 * value times.
 	 */
-    gettimeofday(&mstart,NULL);
+    pthread_spin_lock(&hlock.spin);
 	for (i = 0; i<thread_count; i++) {
 		rc = pthread_create(&tid[i], NULL, thread_func, (void*)value);
 		if (rc) {
@@ -81,6 +127,7 @@ int main(int argc, char *argv[])
 			exit(0);
 		}
 	}
+
 
 	/*
 	 * Wait until all the threads you created above are finished.
@@ -94,9 +141,7 @@ int main(int argc, char *argv[])
 			exit(0);
 		}
 	}
-    gettimeofday(&mend,NULL);
-    diff = TIME * (mend.tv_sec-mstart.tv_sec) + mend.tv_usec-mstart.tv_usec;
-    printf("** Sum time = %llu.%llu sec\n", (long long unsigned int) diff / 1000000, ((long long unsigned int) diff/1000));
+
 	/*
 	 * Print the value of g_count.
 	 * It must be (thread_count * value)

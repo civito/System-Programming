@@ -1,15 +1,14 @@
 #include "hybrid_lock.h"
-#include <sys/time.h>
-#include <time.h>
-#include<stdint.h>
-
-#define TIME 1000000
+#include <stdlib.h>
+#include <pthread.h>
 
 long g_count = 0;
 
 void *thread_func(void *arg)
 {
-	long i, count = (long)arg;
+	long i, j, k, count = (long)arg;
+	long long l;
+
 	/*
 	 * Increase the global variable, g_count.
 	 * This code should be protected by
@@ -17,23 +16,33 @@ void *thread_func(void *arg)
 	 * you implemented for assignment,
 	 * because g_count is shared by other threads.
 	 */
+
     hybrid_lock_lock();
+//	pthread_mutex_lock(&hlock.mutex);
 	for (i = 0; i<count; i++) {
-		/************ Critical Section ************/
+
+		/********************** Critical Section **********************/
+
+		/*
+		 * The purpose of this code is to occupy cpu for long time.
+		 */
+		for (j = 0; j<100000; j++)
+			for (k = 0; k<3000; k++)
+				l += j * k;
+
 		g_count++;
-		/******************************************/
+		/**************************************************************/
 	}
+//	pthread_mutex_unlock(&hlock.mutex);
     hybrid_lock_unlock();
 }
 
 int main(int argc, char *argv[])
 {
 	pthread_t *tid;
-
 	long i, thread_count, value;
 	int rc;
-    struct timeval mstart, mend;
-    uint64_t diff =0;
+
 	/*
 	 * Check that the program has three arguments
 	 * If the number of arguments is not 3, terminate the process.
@@ -53,9 +62,6 @@ int main(int argc, char *argv[])
 	thread_count = atol(argv[1]);
 	value = atol(argv[2]);
 
-
-    hybrid_lock_init();
-
 	/*
 	 * Create array to get tids of each threads that will
 	 * be created by this thread.
@@ -66,18 +72,19 @@ int main(int argc, char *argv[])
 		exit(0);
 	}
 
+    hybrid_lock_init();
+
 	/*
 	 * Create a threads by the thread_count value received as
 	 * an argument. Each threads will increase g_count for
 	 * value times.
 	 */
-    gettimeofday(&mstart,NULL);
 	for (i = 0; i<thread_count; i++) {
 		rc = pthread_create(&tid[i], NULL, thread_func, (void*)value);
 		if (rc) {
 			fprintf(stderr, "pthread_create() error\n");
 			free(tid);
-	//		pthread_mutex_destroy(&g_mutex);
+//			pthread_mutex_destroy(&g_mutex);
 			exit(0);
 		}
 	}
@@ -90,19 +97,18 @@ int main(int argc, char *argv[])
 		if (rc) {
 			fprintf(stderr, "pthread_join() error\n");
 			free(tid);
-	//		pthread_mutex_destroy(&g_mutex);
+//			pthread_mutex_destroy(&g_mutex);
 			exit(0);
 		}
 	}
-    gettimeofday(&mend,NULL);
-    diff = TIME * (mend.tv_sec-mstart.tv_sec) + mend.tv_usec-mstart.tv_usec;
-    printf("** Sum time = %llu.%llu sec\n", (long long unsigned int) diff / 1000000, ((long long unsigned int) diff/1000));
+
+    hybrid_lock_destroy();
+
 	/*
 	 * Print the value of g_count.
 	 * It must be (thread_count * value)
 	 */ 
 	printf("value: %ld\n", g_count);
 
-    hybrid_lock_destroy();
 	free(tid);
 }

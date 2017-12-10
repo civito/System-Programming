@@ -1,8 +1,10 @@
 #include "hybrid_lock.h"
+#include<stdint.h>
 
-void hybrid_lock_init()
+void hybrid_lock_init(int count)
 {
     hlock.wait_thr = 0;
+    hlock.Lcount = count;
     pthread_mutex_init(&hlock.mutex, NULL);
     pthread_spin_init(&hlock.spin, NULL);
 }
@@ -17,15 +19,21 @@ void hybrid_lock_lock()
 {
     struct timeval START, END;
     int time;
+    int count = 0;
+    uint64_t diff =0;
 
-    gettimeofday(&START,NULL);
+    printf("******%d\n", hlock.Lcount);
+
+//    gettimeofday(&START,NULL);
     while(pthread_spin_trylock(&hlock.spin) != 0){
-//         printf("I'm spinning!\n");
-         gettimeofday(&END,NULL);
-         if(time=(END.tv_sec -START.tv_sec)>=1){
-            break;
-         }
+        count++;
+        if(count == hlock.spin){
+           break;
+        }
     }
+//    gettimeofday(&END,NULL);
+//    diff = END.tv_usec-START.tv_usec;
+//    printf("** Sum time = %llu \n", (long long unsigned int) diff);
     hlock.wait_thr += 1;
     pthread_mutex_lock(&hlock.mutex);
     hlock.wait_thr -= 1;
