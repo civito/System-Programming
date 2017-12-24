@@ -4,7 +4,7 @@
 #include<sys/ipc.h>
 #include<sys/shm.h>
 
-#define KEY_NUM 3112
+#define KEY_NUM 3212
 
 #define MSQ1_KEY_NUM 1111
 #define MSQ2_KEY_NUM 2222
@@ -88,7 +88,7 @@ int main(){
 	    			chatlog[log_cnt].PID = PID1;
 	    			strcpy(chatlog[log_cnt].msg_text, msg.mtext);
     				log_cnt++;
-    				printf("[1] : %s\n", msg.mtext);
+    				printf("[PID1] : %s\n", msg.mtext);
                 }    
             }else if(msgrcv(que_id2, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){
            	    /* when target process exist */
@@ -109,7 +109,7 @@ int main(){
 				    chatlog[log_cnt].PID = PID2;
     				strcpy(chatlog[log_cnt].msg_text, msg.mtext);
 	    			log_cnt++;
-		    		printf("[2] : %s\n", msg.mtext);
+		    		printf("[PID2] : %s\n", msg.mtext);
                 }      
             }else if(msgrcv(que_id3, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){        
       			/* when target process exist */
@@ -130,7 +130,7 @@ int main(){
 		    		chatlog[log_cnt].PID = PID3;
     				strcpy(chatlog[log_cnt].msg_text, msg.mtext);
     				log_cnt++;
-    				printf("[3] : %s\n", msg.mtext);
+    				printf("[PID3] : %s\n", msg.mtext);
                 }    
             }else;
         }

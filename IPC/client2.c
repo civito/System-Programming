@@ -5,7 +5,7 @@
 #include<sys/shm.h>
 #include<sys/msg.h>
 
-#define KEY_NUM 3112 // Shared Memory
+#define KEY_NUM 3212 // Shared Memory
 #define MSQ_KEY_NUM 2222 // Msg Queue
 
 #define SEND 1
@@ -52,6 +52,7 @@ int main(){
                 printf("shmat fail!\n");
                 return -1;
         }
+        printf("******* PID 2 *******\n");
 
     	while(1){
 	    	printf("=========================\n");
@@ -61,33 +62,48 @@ int main(){
     		printf("3. Confirm Message_log\n");
     		printf("4. Exit\n");
     		printf("==========================\n");
-    		scanf("%d", &option);
+            char op = getchar();
+            option = op - '0';
+            while((op = getchar()) != '\n' && op != EOF); // make buffer empty
     		printf("\n\n");
 
     		switch(option){
 	    		case 1 : // Msg Send
     				system("clear");
+
     				printf("Target Process # [1][2][3] \n");
-    				scanf("%d", &msg.to);
+                    op = getchar();
+                    msg.to = op - '0';
+                    while((op = getchar()) != '\n' && op != EOF); // make buffer empty
+
     				printf("Write your Message : \n");
-    				scanf("%s", buf_text);
+                    fgets(buf_text, S_SIZE, stdin);
+                    buf_text[strlen(buf_text)-1] = '\n';
+
     				msg.mtype = SEND;				
     				strcpy(msg.mtext, buf_text);
     				msgsnd(que_id, &msg, msg_size, NULL); 
+
     				system("clear");
         			break;
 
                 case 2 : // Msg Receive				
+                    printf("===================================\n");
+                    printf("|          Recieved Msg           |\n");
+                    printf("===================================\n");
+                    printf("[PID] : [MESSAGE]\n");
+                    printf("-----------------------------\n");
+
 	    			while(msgrcv(que_id, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){
                         switch(msg.from){
                             case 1:
-                                printf("[1] : ");
+                                printf("[PID1] : ");
                                 break;
                             case 2:
-                                printf("[2] : ");
+                                printf("[PID2] : ");
                                 break;
                             case 3:
-                                printf("[3] : ");
+                                printf("[PID3] : ");
                                 break;
                             default:
                                 break;
@@ -106,12 +122,12 @@ int main(){
                     
                     while(log_cnt < 100){
     					if(chatlog[log_cnt].PID != 0){
-        					printf("[%d] : %s\n", chatlog[log_cnt].PID, chatlog[log_cnt].msg_text);
+        					printf("[PID%d] : %s\n", chatlog[log_cnt].PID, chatlog[log_cnt].msg_text);
                         }
         				log_cnt++;
     				}
     				log_cnt = 0;
-    				printf("\n\n");
+    				printf("\n\n\n");
         			break;
 
     			case 4 : // Exit
