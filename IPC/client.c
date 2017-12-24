@@ -29,14 +29,14 @@ typedef struct{
 
 int main(){
         int log_cnt = 0;
-	    int option;
+	int option;
     	char buf_text[S_SIZE];
 
-	    key_t key = MSQ_KEY_NUM;
+	key_t key = MSQ_KEY_NUM;
         int que_id = msgget(key, IPC_CREAT|0666);
 
-	    MsgType msg;
-	    int msg_size = sizeof(msg) - sizeof(msg.mtype);
+	MsgType msg;
+	int msg_size = sizeof(msg) - sizeof(msg.mtype);
 
         ChatLog * chatlog;
         int size = sizeof(ChatLog) * LEN;
@@ -44,8 +44,8 @@ int main(){
         int shm_id;
 
         if(-1 == (shm_id = shmget((key_t)KEY_NUM ,size, IPC_CREAT|0666))){
-            printf("shmget fail!\n");
-            return -1;
+        	printf("shmget fail!\n");
+                return -1;
         }
 
         if(-1 == (chatlog = shmat(shm_id, (void *)0, SHM_RDONLY))){
@@ -56,29 +56,27 @@ int main(){
 
     	while(1){
 	    	printf("=========================\n");
-		    printf("Select Option\n");
+		printf("Select Option\n");
     		printf("1. Message Send\n");
 	    	printf("2. Message Receive\n");
     		printf("3. Confirm Message_log\n");
     		printf("4. Exit\n");
     		printf("==========================\n");
-            char op = getchar();
-            option = op - '0';
-            while((op = getchar()) != '\n' && op != EOF); // make buffer empty
+                char op = getchar();
+                option = op - '0';
+                while((op = getchar()) != '\n' && op != EOF); // make buffer empty
     		printf("\n\n");
 
     		switch(option){
 	    		case 1 : // Msg Send
     				system("clear");
-
     				printf("Target Process # [1][2][3] \n");
-                    op = getchar();
-                    msg.to = op - '0';
-                    while((op = getchar()) != '\n' && op != EOF); // make buffer empty
-
+                	        op = getchar();
+                                msg.to = op - '0';
+                                while((op = getchar()) != '\n' && op != EOF); // make buffer empty
     				printf("Write your Message : \n");
-                    fgets(buf_text, S_SIZE, stdin);
-                    buf_text[strlen(buf_text)-1] = '\n';
+                                fgets(buf_text, S_SIZE, stdin);
+                                buf_text[strlen(buf_text)-1] = '\n';
 
     				msg.mtype = SEND;				
     				strcpy(msg.mtext, buf_text);
@@ -87,43 +85,43 @@ int main(){
     				system("clear");
         			break;
 
-                case 2 : // Msg Receive				
-                    printf("===================================\n");
-                    printf("|          Recieved Msg           |\n");
-                    printf("===================================\n");
-                    printf("[PID] : [MESSAGE]\n");
-                    printf("-----------------------------\n");
+                	case 2 : // Msg Receive				
+                    		printf("===================================\n");
+                    		printf("|          Recieved Msg           |\n");
+                    		printf("===================================\n");
+                    		printf("[PID] : [MESSAGE]\n");
+                    		printf("-----------------------------\n");
 
 	    			while(msgrcv(que_id, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){
-                        switch(msg.from){
-                            case 1:
-                                printf("[PID1] : ");
-                                break;
-                            case 2:
-                                printf("[PID2] : ");
-                                break;
-                            case 3:
-                                printf("[PID3] : ");
-                                break;
-                            default:
-                                break;
-                        }
+                        		switch(msg.from){
+                            			case 1:
+                                			printf("[PID1] : ");
+                                			break;
+                            			case 2:
+                                			printf("[PID2] : ");
+                                			break;
+                            			case 3:
+                                			printf("[PID3] : ");
+                                			break;
+                            			default:
+                                			break;
+                        		}
 		    			printf("%s\n", msg.mtext);			                     
-                    }
+                    		}
     				printf("\n");
 	        		break;
 
-                case 3 : // Access Shared Memory
-                    printf("===================================\n");
-                    printf("|             Chat-Log            |\n");
-                    printf("===================================\n");
-                    printf("[PID] : [MESSAGE]\n");
-                    printf("-----------------------------\n");                    
-                    
-                    while(log_cnt < 100){
+                	case 3 : // Access Shared Memory
+                    		printf("===================================\n");
+                    		printf("|             Chat-Log            |\n");
+                    		printf("===================================\n");
+                    		printf("[PID] : [MESSAGE]\n");
+                    		printf("-----------------------------\n");                    
+		                    
+		                while(log_cnt < 100){
     					if(chatlog[log_cnt].PID != 0){
         					printf("[PID%d] : %s\n", chatlog[log_cnt].PID, chatlog[log_cnt].msg_text);
-                        }
+                		        }
         				log_cnt++;
     				}
     				log_cnt = 0;
