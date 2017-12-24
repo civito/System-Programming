@@ -6,7 +6,7 @@
 #include<sys/msg.h>
 
 #define KEY_NUM 3228 // Shared Memory
-#define MSQ_KEY_NUM 1111 // Msg Queue
+#define MSQ_KEY_NUM 2222 // Msg Queue
 
 #define SEND 1
 #define RCV 2
