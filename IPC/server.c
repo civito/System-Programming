@@ -71,68 +71,68 @@ int main(){
     	while(1){
     		if(msgrcv(que_id1, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){
     			/* When target process exist */
-                if(msg.to == PID1){
-    				msg.mtype = SEND;	
-                    msg.from = PID1;
+                	if(msg.to == PID1){
+	    			msg.mtype = SEND;
+				msg.from = PID1;
 		    		msgsnd(que_id1, &msg, msg_size, IPC_NOWAIT);
-                }else if(msg.to == PID2){
-			    	msg.mtype = SEND;	
-                    msg.from = PID1;
+	                }else if(msg.to == PID2){
+			    	msg.mtype = SEND;	        	
+				msg.from = PID1;
     				msgsnd(que_id2, &msg, msg_size, IPC_NOWAIT);
 		    	}else if(msg.to == PID3){
-                    msg.mtype = SEND;
-                    msg.from = PID1;
-                    msgsnd(que_id3, &msg, msg_size, IPC_NOWAIT);
+                   		msg.mtype = SEND;
+                    		msg.from = PID1;
+                    		msgsnd(que_id3, &msg, msg_size, IPC_NOWAIT);
     			}else{
     			/* Just write on log */	
 	    			chatlog[log_cnt].PID = PID1;
 	    			strcpy(chatlog[log_cnt].msg_text, msg.mtext);
     				log_cnt++;
     				printf("[PID1] : %s\n", msg.mtext);
-                }    
-            }else if(msgrcv(que_id2, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){
+                	}    
+            	}else if(msgrcv(que_id2, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){
            	    /* when target process exist */
-                if(msg.to == PID1){
+                	if(msg.to == PID1){
 			    	msg.mtype = SEND;
-                    msg.from = PID2;
+                    		msg.from = PID2;
 			    	msgsnd(que_id1, &msg, msg_size, IPC_NOWAIT);
-                }else if(msg.to == PID2){
-				    msg.mtype = SEND;	
-                    msg.from = PID2;
-				    msgsnd(que_id2, &msg, msg_size, IPC_NOWAIT);
-			    }else if(msg.to == PID3){
-                    msg.mtype = SEND;
-                    msg.from = PID2;
-                    msgsnd(que_id3, &msg, msg_size, IPC_NOWAIT);
-			    }else{
+                	}else if(msg.to == PID2){
+				msg.mtype = SEND;	
+                    		msg.from = PID2;
+				msgsnd(que_id2, &msg, msg_size, IPC_NOWAIT);			    
+			}else if(msg.to == PID3){	
+				msg.mtype = SEND;
+				msg.from = PID2;                   
+				msgsnd(que_id3, &msg, msg_size, IPC_NOWAIT);
+			}else{
     			/* Just write on log */	
-				    chatlog[log_cnt].PID = PID2;
+				chatlog[log_cnt].PID = PID2;
     				strcpy(chatlog[log_cnt].msg_text, msg.mtext);
 	    			log_cnt++;
 		    		printf("[PID2] : %s\n", msg.mtext);
-                }      
-            }else if(msgrcv(que_id3, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){        
+	                }      
+		}else if(msgrcv(que_id3, &msg, msg_size, RCV, IPC_NOWAIT) != (ssize_t)-1){        
       			/* when target process exist */
-                if(msg.to == PID1){
+                	if(msg.to == PID1){
 	    			msg.mtype = SEND;	
-                    msg.from = PID3;
+                    		msg.from = PID3;
     				msgsnd(que_id1, &msg, msg_size, IPC_NOWAIT);
-                }else if(msg.to == PID2){
+                	}else if(msg.to == PID2){
     				msg.mtype = SEND;	
-                    msg.from = PID3;
+                    		msg.from = PID3;
     				msgsnd(que_id2, &msg, msg_size, IPC_NOWAIT);
     			}else if(msg.to == PID3){
-                    msg.mtype = SEND;
-                    msg.from = PID3;
-                    msgsnd(que_id3, &msg, msg_size, IPC_NOWAIT);
+                    		msg.mtype = SEND;
+                    		msg.from = PID3;
+                    		msgsnd(que_id3, &msg, msg_size, IPC_NOWAIT);
 	    		}else{
     			/* Just write on log */	
 		    		chatlog[log_cnt].PID = PID3;
     				strcpy(chatlog[log_cnt].msg_text, msg.mtext);
     				log_cnt++;
     				printf("[PID3] : %s\n", msg.mtext);
-                }    
-            }else;
+                	}                
+		}else;
         }
 }
 
